@@ -1,0 +1,38 @@
+@import "../../../styles/variables";
+
+.header {
+  width: 100%;
+
+  .thinHeader {
+    background-color: $brand-dark-gray;
+    padding: 1rem 0;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.25rem;
+    }
+  }
+}
+
+.iconMain {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  .icon {
+    display: flex;
+    gap: 0.5rem;
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+  }
+
+  .socialIcon {
+    padding: 0.5rem;
+    opacity: 0.8;
+    background: #3d3d3d;
+    border-radius: 100%;
+  }
+}
