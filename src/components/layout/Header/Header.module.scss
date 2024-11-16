@@ -5,7 +5,7 @@
 
   .thinHeader {
     background-color: $brand-dark-gray;
-    padding: 1rem 0;
+    padding: 0.5625rem 0;
 
     div {
       display: flex;
@@ -34,5 +34,110 @@
     opacity: 0.8;
     background: #3d3d3d;
     border-radius: 100%;
+  }
+}
+
+.navbar {
+  padding-top: 1.8125rem;
+  padding-bottom: 1.25rem;
+  width: 100%;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.9rem;
+
+    @media (min-width: 1024px) {
+      gap: 1.25rem;
+    }
+  }
+
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    width: fit-content;
+
+    .header img {
+      width: 3rem;
+      height: 3rem;
+      object-fit: contain;
+    }
+
+    p {
+      font-family: $styled-font;
+      font-size: 2.625rem;
+      line-height: 1.8313rem;
+      letter-spacing: -0.025rem;
+      font-weight: 600;
+      font-style: italic;
+      color: $brand-dark-gray;
+      text-wrap: nowrap;
+    }
+  }
+
+  .navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+
+    @media (min-width: 1024px) and (max-width: 1100px) {
+      gap: 2rem;
+    }
+
+    @media (min-width: 1100px) {
+      gap: 7.5rem;
+    }
+
+    .navLinks a {
+      padding: 0.25rem 1rem;
+      display: inline-block;
+      color: $brand-text;
+      border-radius: 2.125rem;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 500;
+      display: none;
+
+      &:hover {
+        background: #dbdfd0;
+      }
+
+      @media (min-width: 768px) {
+        display: block;
+      }
+    }
+
+    .activeLink {
+      background: #dbdfd0;
+    }
+
+    .navBtn {
+      border: 0.125rem solid $brand-dark-gray;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      font-weight: bold;
+      border-radius: 7.375rem;
+      padding: 0.75rem 1.5rem;
+      background: transparent;
+      display: none;
+      text-wrap: nowrap;
+
+      @media (min-width: 1024px) {
+        display: block;
+      }
+    }
+
+    .menuIcon {
+      display: block;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
   }
 }
