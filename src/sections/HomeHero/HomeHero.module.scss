@@ -1,0 +1,86 @@
+@import "../../styles/variables";
+
+.main {
+  background-image: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731775111/t3s06cmdmff03uanvosw.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    height: 43.75rem;
+  }
+
+  .content {
+    max-width: 41.6875rem;
+    width: 100%;
+    margin: 0 auto;
+
+    h1 {
+      color: $brand-text;
+      font-family: $styled-font;
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 2rem;
+      font-size: 3.75rem;
+      line-height: 3.4375rem;
+
+      @media (min-width: 768px) {
+        font-size: 6.25rem;
+        line-height: 6rem;
+      }
+    }
+
+    h6 {
+      color: $brand-text;
+      text-align: center;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: normal;
+
+      @media (min-width: 768px) {
+        font-size: 1.25rem;
+        line-height: 2rem;
+      }
+    }
+
+    div {
+      margin-top: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      button {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+        padding: 0.75rem 1.125rem;
+        border-radius: 7.375rem;
+        border-width: 0.125rem;
+        border-style: solid;
+        outline: none;
+        text-wrap: nowrap;
+
+        @media (min-width: 768px) {
+          padding: 1.25rem 2rem;
+        }
+      }
+
+      .redBtn {
+        background: $brand-red;
+        border-color: $brand-red;
+        color: white;
+      }
+
+      .transparentBtn {
+        color: $brand-text;
+        border-color: $brand-text;
+      }
+    }
+  }
+}
