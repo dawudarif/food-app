@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import styles from "./OurServices.module.scss";
 
 const services = [
