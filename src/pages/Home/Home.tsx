@@ -1,5 +1,6 @@
 import React from "react";
 import HomeHero from "../../sections/HomeHero/HomeHero";
+import ImageWithTextAndDescription from "../../sections/ImageWithTextAndDescription/ImageWithTextAndDescription";
 import MenuLinks from "../../sections/MenuLinks/MenuLinks";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <HomeHero />
       <MenuLinks />
+      <ImageWithTextAndDescription />
     </>
   );
 }

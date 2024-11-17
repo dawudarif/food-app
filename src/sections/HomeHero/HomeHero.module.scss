@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .main {
-  background-image: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731775111/t3s06cmdmff03uanvosw.svg");
+  background-image: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731833041/hls0kcwpwirfcj5pe3eh.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -80,6 +80,7 @@
       .transparentBtn {
         color: $brand-text;
         border-color: $brand-text;
+        background-color: transparent;
       }
     }
   }

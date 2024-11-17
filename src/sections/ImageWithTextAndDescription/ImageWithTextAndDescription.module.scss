@@ -1,0 +1,146 @@
+@import "../../styles/variables";
+
+.main {
+  background-color: $brand-light-gray;
+  padding: 5rem 0;
+
+  @media (min-width: 768px) {
+    padding: 7.5rem 0;
+  }
+
+  .contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 4rem;
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      gap: 5rem;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      gap: 8.75rem;
+      align-items: center;
+    }
+
+    .imageContainer {
+      background: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731833049/rc8ftpevsofexp8cb2fa.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 0.75rem;
+      position: relative;
+      height: 35.375rem;
+      width: 97%;
+
+      @media (min-width: 768px) {
+        max-width: 37.4375rem;
+        width: 100%;
+      }
+
+      .imageContent {
+        position: absolute;
+        border-radius: 0.75rem;
+        background-color: $brand-dark-gray;
+        max-width: 25.6875rem;
+        width: 100%;
+        padding: 2rem;
+        bottom: -1rem;
+        right: -1rem;
+
+        @media (min-width: 640px) and (max-width: 768px) {
+          bottom: -2rem;
+          right: -2rem;
+          padding: 2.5rem;
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+          bottom: -3.125rem;
+          right: -3.125rem;
+          padding: 3.125rem;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+          line-height: 1.875rem;
+          letter-spacing: -3%;
+          color: white;
+          font-weight: bold;
+        }
+
+        .contentParent {
+          margin-top: 2rem;
+          display: flex;
+          flex-direction: column;
+          gap: 1.5625rem;
+
+          .iconContent {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+
+            img {
+              height: 1.5rem;
+              width: 1.5rem;
+            }
+
+            p {
+              font-weight: normal;
+              font-size: 1rem;
+              line-height: 1.25rem;
+              color: white;
+
+              @media (max-width: 400px) {
+                word-break: break-all;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .contentContainer {
+      display: inline-block;
+      width: 100%;
+
+      h1 {
+        font-size: 3.4375rem;
+        line-height: 3.7813rem;
+        font-weight: 500;
+        color: $brand-text;
+        font-family: $styled-font;
+        margin-bottom: 1.5rem;
+      }
+
+      div {
+        strong {
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+          font-weight: 500;
+          margin-bottom: 1.5rem;
+          display: block;
+        }
+
+        p {
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: 400;
+        }
+      }
+
+      button {
+        margin-top: 2.5rem;
+        border: 0.125rem solid $brand-text;
+        border-radius: 7.375rem;
+        padding: 1.5rem 2rem;
+        font-size: 1rem;
+        font-weight: 1.5rem;
+        font-weight: bold;
+        background: transparent;
+      }
+    }
+  }
+}
