@@ -5,29 +5,28 @@ import dessertImage from "../../assets/cake.svg";
 import styles from "./MenuLink.module.scss";
 import { Link } from "react-router-dom";
 
-const data = [
+const menu = [
   {
     title: "Breakfast",
-    content:
-      "In the new era of technology we look in the future with certainty and pride for our life.",
+    content: "Start your day with energy-packed meals crafted to perfection.",
     image: breakfastImage,
   },
   {
     title: "Main Dishes",
     content:
-      "In the new era of technology we look in the future with certainty and pride for our life.",
+      "Savor hearty, flavorful dishes made with fresh, quality ingredients.",
     image: mainDishImage,
   },
   {
     title: "Drinks",
     content:
-      "In the new era of technology we look in the future with certainty and pride for our life.",
+      "Refresh your palate with our wide range of beverages and cocktails.",
     image: drinkImage,
   },
   {
     title: "Desserts",
     content:
-      "In the new era of technology we look in the future with certainty and pride for our life.",
+      "Indulge in sweet treats and delectable desserts crafted with care.",
     image: dessertImage,
   },
 ];
@@ -38,7 +37,7 @@ export default function MenuLinks() {
       <div className={styles.mainContainer}>
         <h1>Browse Our Menu</h1>
         <div className={styles.boxContainer}>
-          {data.map((item, index) => {
+          {menu.map((item, index) => {
             return (
               <div key={index} className={styles.linkBox}>
                 <span>
