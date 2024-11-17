@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import styles from "./HomeHero.module.scss";
 
 export default function HomeHero() {
