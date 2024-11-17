@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { Facebook, Instagram, Mail, Menu, Phone, Twitter } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { routes } from "../../../App";
 import styles from "./Header.module.scss";
@@ -8,6 +8,10 @@ import styles from "./Header.module.scss";
 export default function Header() {
   const { pathname } = useLocation();
   const [showMobileHeader, setShowMobileHeader] = useState(false);
+
+  useEffect(() => {
+    setShowMobileHeader(false);
+  }, [pathname]);
 
   return (
     <>
