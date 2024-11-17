@@ -2,6 +2,7 @@ import React from "react";
 import HomeHero from "../../sections/HomeHero/HomeHero";
 import ImageWithTextAndDescription from "../../sections/ImageWithTextAndDescription/ImageWithTextAndDescription";
 import MenuLinks from "../../sections/MenuLinks/MenuLinks";
+import OurServices from "../../sections/OurServices/OurServices";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HomeHero />
       <MenuLinks />
       <ImageWithTextAndDescription />
+      <OurServices />
     </>
   );
 }
