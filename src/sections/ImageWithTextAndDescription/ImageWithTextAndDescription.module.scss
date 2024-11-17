@@ -28,15 +28,16 @@
     }
 
     .imageContainer {
-      background: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731833049/rc8ftpevsofexp8cb2fa.jpg");
+      background: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731839786/fbshkiytnlmjqmf35ev4.jpg");
       background-position: center;
       background-size: cover;
       border-radius: 0.75rem;
       position: relative;
-      height: 35.375rem;
       width: 97%;
+      height: 32rem;
 
       @media (min-width: 768px) {
+        height: 35.375rem;
         max-width: 37.4375rem;
         width: 100%;
       }
@@ -57,7 +58,7 @@
           padding: 2.5rem;
         }
 
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media (min-width: 768px) {
           bottom: -3.125rem;
           right: -3.125rem;
           padding: 3.125rem;
