@@ -24,6 +24,7 @@
 .slick {
   .slick-list .slick-track {
     display: flex !important;
+    gap: 1.5rem;
     height: inherit !important;
 
     .slick-slide {
