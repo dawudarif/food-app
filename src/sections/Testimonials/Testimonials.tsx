@@ -106,7 +106,7 @@ export default function Testimonials() {
     variableWidth: false,
     autoplay: true,
     speed: 500,
-    autoplaySpeed: 500,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
       {
