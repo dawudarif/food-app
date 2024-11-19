@@ -20,3 +20,18 @@
     padding-right: 2.5rem;
   }
 }
+
+.slick {
+  .slick-list .slick-track {
+    display: flex !important;
+    height: inherit !important;
+
+    .slick-slide {
+      height: inherit !important;
+
+      > :first-child {
+        height: 100%;
+      }
+    }
+  }
+}
