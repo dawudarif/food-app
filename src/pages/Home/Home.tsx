@@ -10,7 +10,10 @@ export default function Home() {
     <>
       <HomeHero />
       <MenuLinks />
-      <ImageWithTextAndDescription />
+      <ImageWithTextAndDescription
+        imageUrl="https://res.cloudinary.com/dowc89eyy/image/upload/v1731857365/food-app/sbqrgvthaldfeb0i5yqo.jpg"
+        showButton={true}
+      />
       <OurServices />
       <ImageGalleryWithText />
       <Testimonials />

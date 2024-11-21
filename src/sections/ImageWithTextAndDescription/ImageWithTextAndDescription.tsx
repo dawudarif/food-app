@@ -18,7 +18,13 @@ const data = [
   },
 ];
 
-export default function ImageWithTextAndDescription() {
+export default function ImageWithTextAndDescription({
+  imageUrl,
+  showButton = false,
+}: {
+  imageUrl: string;
+  showButton?: boolean;
+}) {
   return (
     <section
       data-testid="image-with-text-and-description"
@@ -26,7 +32,12 @@ export default function ImageWithTextAndDescription() {
     >
       <div className="container">
         <div className={styles.contentContainer}>
-          <div className={styles.imageContainer}>
+          <div
+            className={styles.imageContainer}
+            style={{
+              background: `url(${imageUrl})`,
+            }}
+          >
             <div className={styles.imageContent}>
               <h1>Come and Visit Us</h1>
               <div className={styles.contentParent}>
@@ -56,7 +67,7 @@ export default function ImageWithTextAndDescription() {
               </p>
             </div>
 
-            <button>More About Us</button>
+            {showButton && <button>More About Us</button>}
           </div>
         </div>
       </div>
