@@ -28,13 +28,12 @@
     }
 
     .imageContainer {
-      background: url("https://res.cloudinary.com/dowc89eyy/image/upload/v1731857365/food-app/sbqrgvthaldfeb0i5yqo.jpg");
-      background-position: center;
-      background-size: cover;
-      border-radius: 0.75rem;
+      background-position: center !important;
+      background-size: cover !important;
+      border-radius: 0.75rem !important;
       position: relative;
-      width: 97%;
-      height: 32rem;
+      width: 97% !important;
+      height: 32rem !important;
 
       @media (min-width: 768px) {
         height: 35.375rem;
