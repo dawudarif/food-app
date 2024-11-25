@@ -1,10 +1,13 @@
+import { useTranslation } from "react-i18next";
 import styles from "./Contact.module.scss";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.contact}>
       <div className={styles.containerOne}>
-        <h1>Contact Us</h1>
+        <h1>{t("contactUsHeading")}</h1>
         <p>
           We consider all the drivers of change gives you the components you
           need to change to create a truly happens.
