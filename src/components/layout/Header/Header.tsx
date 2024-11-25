@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { Facebook, Instagram, Mail, Menu, Phone, Twitter } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { routes } from "../../../App";
+import useTranslatedRoutes from "../../../hooks/useTranlatedRoutes";
 import styles from "./Header.module.scss";
 
 export default function Header() {
@@ -87,6 +87,8 @@ export default function Header() {
 }
 
 const NavLinks = ({ pathname }: { pathname: string }) => {
+  const routes = useTranslatedRoutes();
+
   return (
     <>
       {routes.map((item, index) => {

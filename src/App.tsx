@@ -1,28 +1,16 @@
 import { Fragment } from "react";
+import { useTranslation } from "react-i18next";
 import { Navigate, Route } from "react-router";
 import { Routes } from "react-router-dom";
 import Header from "./components/layout/Header/Header";
-import { LanguageWrapper } from "./lib/LanguageWrapper";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
-import Home from "./pages/Home/Home";
-import Menu from "./pages/Menu/Menu";
-import Pages from "./pages/Pages";
+import useTranslatedRoutes from "./hooks/useTranlatedRoutes";
+import { LanguageWrapper } from "./i18n/LanguageWrapper";
 import "./styles/globals.scss";
 
-export const routes = [
-  { path: "/", name: "home", element: <Home /> },
-  { path: "/about", name: "about", element: <About /> },
-  { path: "/menu", name: "menu", element: <Menu /> },
-  { path: "/pages", name: "pages", element: <Pages /> },
-  {
-    path: "/contact",
-    name: "contact",
-    element: <Contact />,
-  },
-];
-
 function App() {
+  const routes = useTranslatedRoutes();
+  const { i18n } = useTranslation();
+
   return (
     <>
       <Header />
@@ -32,7 +20,9 @@ function App() {
             <Fragment key={index}>
               <Route
                 path={item.path}
-                element={<Navigate to={"/en" + item.path} replace />}
+                element={
+                  <Navigate to={"/" + i18n.language + item.path} replace />
+                }
               />
               <Route
                 path={"/:lng" + item.path}

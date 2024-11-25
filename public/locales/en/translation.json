@@ -1,4 +1,11 @@
 {
+  "routes": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "pages": "Pages",
+    "contact": "Contact Us"
+  },
   "hero": {
     "title": "Best food for your tastes",
     "desc": "Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.",

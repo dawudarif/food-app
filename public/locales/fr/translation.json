@@ -1,4 +1,11 @@
 {
+  "routes": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "menu": "Menu",
+    "pages": "Pages",
+    "contact": "Contactez-Nous"
+  },
   "hero": {
     "title": "La meilleure nourriture à votre goût",
     "desc": "Découvrez une cuisine délicieuse et des moments inoubliables dans notre havre de paix accueillant et culinaire.",
