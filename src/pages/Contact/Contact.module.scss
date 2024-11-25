@@ -58,7 +58,11 @@
         align-items: center;
         gap: 1.5rem;
         width: 100%;
-        flex-wrap: wrap;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+          flex-direction: row;
+        }
 
         label {
           width: 100%;
