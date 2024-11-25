@@ -1,0 +1,117 @@
+{
+  "routes": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "menu": "Menú",
+    "pages": "Páginas",
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "title": "La mejor comida para tus gustos",
+    "desc": "Descubre una cocina deliciosa y momentos inolvidables en nuestro acogedor paraíso culinario.",
+    "buttonOne": "Reservar una Mesa",
+    "buttonTwo": "Explorar el Menú"
+  },
+  "menu": {
+    "title": "Explora Nuestro Menú",
+    "button": "Explorar el Menú",
+    "breakfast": {
+      "title": "Desayuno",
+      "content": "Comienza tu día con comidas energéticas preparadas a la perfección."
+    },
+    "mainDishes": {
+      "title": "Platos Principales",
+      "content": "Saborea platos abundantes y llenos de sabor, elaborados con ingredientes frescos y de calidad."
+    },
+    "drinks": {
+      "title": "Bebidas",
+      "content": "Refresca tu paladar con nuestra amplia gama de bebidas y cócteles."
+    },
+    "desserts": {
+      "title": "Postres",
+      "content": "Disfruta de dulces y postres deliciosos elaborados con cariño."
+    }
+  },
+  "testimonials_heading": "Lo que dicen nuestros clientes",
+  "testimonials": [
+    {
+      "title": "El mejor restaurante",
+      "description": "Anoche cenamos en este lugar y quedamos completamente impresionados. Desde el momento en que entramos, nos envolvió un ambiente acogedor y nos recibieron con sonrisas cálidas.",
+      "author": "Sophie Robson",
+      "location": "Los Ángeles, CA"
+    },
+    {
+      "title": "Simplemente delicioso",
+      "description": "Este lugar superó mis expectativas en todos los aspectos. El ambiente era acogedor y relajado, lo que lo hacía perfecto para nuestra cena de aniversario. Cada plato estaba preparado y presentado de manera hermosa.",
+      "author": "Matt Cannon",
+      "location": "San Diego, CA"
+    },
+    {
+      "title": "Un restaurante único",
+      "description": "La experiencia culinaria en este lugar es inigualable. El ambiente es vibrante, y la comida, nada menos que extraordinaria. La comida fue lo más destacado de nuestra noche. Muy recomendado.",
+      "author": "Andy Smith",
+      "location": "San Francisco, CA"
+    },
+    {
+      "title": "Una experiencia inolvidable",
+      "description": "Los sabores de este lugar son inolvidables. Cada bocado fue una sinfonía de sabores, y el personal hizo todo lo posible para hacernos sentir especiales.",
+      "author": "Emily Carter",
+      "location": "Austin, TX"
+    },
+    {
+      "title": "Comida exquisita",
+      "description": "De principio a fin, la experiencia gastronómica aquí fue exquisita. La presentación de la comida fue artística, y el sabor fue igualmente impresionante.",
+      "author": "Michael Lee",
+      "location": "Nueva York, NY"
+    },
+    {
+      "title": "Perfecto para celebraciones",
+      "description": "Celebramos un cumpleaños aquí, y fue la elección perfecta. El personal hizo que fuera una noche memorable, y la comida fue simplemente excepcional.",
+      "author": "Olivia Martinez",
+      "location": "Chicago, IL"
+    },
+    {
+      "title": "Una joya escondida",
+      "description": "Este lugar es una joya escondida. Todo, desde la decoración hasta los sabores de los platos, estaba perfectamente logrado. ¡Definitivamente volveremos!",
+      "author": "Noah Wilson",
+      "location": "Portland, OR"
+    },
+    {
+      "title": "Servicio excepcional",
+      "description": "El servicio fue excepcional, y la comida estuvo a la altura de los más altos estándares. Se puede sentir la pasión y el cuidado en cada detalle.",
+      "author": "Sophia Davis",
+      "location": "Seattle, WA"
+    },
+    {
+      "title": "Una obra maestra culinaria",
+      "description": "Cada plato fue una obra maestra culinaria. El chef realmente sabe cómo combinar sabores y texturas para crear algo mágico.",
+      "author": "Liam Brown",
+      "location": "Miami, FL"
+    },
+    {
+      "title": "Un festín para los sentidos",
+      "description": "Este restaurante ofrece un festín para todos los sentidos. La presentación visual, el aroma y los sabores no tienen comparación.",
+      "author": "Ava Johnson",
+      "location": "Denver, CO"
+    },
+    {
+      "title": "El mejor lugar para una cita",
+      "description": "Mi pareja y yo tuvimos la mejor cita nocturna aquí. El ambiente era romántico, y la comida impecable. ¡Altamente recomendado!",
+      "author": "Ethan Garcia",
+      "location": "Phoenix, AZ"
+    },
+    {
+      "title": "Vale cada centavo",
+      "description": "Este restaurante puede ser un poco caro, pero vale cada centavo. Obtienes una experiencia inolvidable y platos de clase mundial.",
+      "author": "Isabella Hernandez",
+      "location": "Dallas, TX"
+    },
+    {
+      "title": "Ideal para familias",
+      "description": "Trajimos a nuestros hijos y el personal fue muy amable. El menú tenía algo para todos, y cada plato fue espectacular.",
+      "author": "Charlotte Thomas",
+      "location": "Atlanta, GA"
+    }
+  ],
+  "contactUsHeading": "Contáctanos"
+}

@@ -4,3 +4,10 @@ interface BlogData {
   imageUrl: string;
   date: string;
 }
+
+interface Translations {
+  title: string;
+  description: string;
+  author: string;
+  location: string;
+}
