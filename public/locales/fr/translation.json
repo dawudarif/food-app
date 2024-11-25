@@ -32,5 +32,86 @@
       "content": "Dégustez des douceurs et desserts délicieux préparés avec soin."
     }
   },
+  "testimonials_heading": "Ce que disent nos clients",
+  "testimonials": [
+    {
+      "title": "Le meilleur restaurant",
+      "description": "Hier soir, nous avons dîné dans cet endroit et nous avons été complètement impressionnés. Dès que nous sommes entrés, nous avons été enveloppés dans une atmosphère accueillante et avons été reçus avec des sourires chaleureux.",
+      "author": "Sophie Robson",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "title": "Tout simplement délicieux",
+      "description": "Cet endroit a dépassé mes attentes à tous les niveaux. L'ambiance était cosy et détendue, ce qui en faisait un lieu parfait pour notre dîner d'anniversaire. Chaque plat était préparé et magnifiquement présenté.",
+      "author": "Matt Cannon",
+      "location": "San Diego, CA"
+    },
+    {
+      "title": "Un restaurant unique",
+      "description": "L'expérience culinaire dans cet endroit est sans pareil. L'ambiance est vibrante, la nourriture – rien de moins qu'extraordinaire. La nourriture a été le point culminant de notre soirée. Hautement recommandé.",
+      "author": "Andy Smith",
+      "location": "San Francisco, CA"
+    },
+    {
+      "title": "Une expérience inoubliable",
+      "description": "Les saveurs de cet endroit sont inoubliables. Chaque bouchée était une symphonie de saveurs, et le personnel a fait tout son possible pour nous faire sentir spéciaux.",
+      "author": "Emily Carter",
+      "location": "Austin, TX"
+    },
+    {
+      "title": "Dîner exquis",
+      "description": "Du début à la fin, l'expérience culinaire ici était exquise. La présentation des plats était artistique, et le goût était tout aussi impressionnant.",
+      "author": "Michael Lee",
+      "location": "New York, NY"
+    },
+    {
+      "title": "Parfait pour les célébrations",
+      "description": "Nous avons célébré un anniversaire ici, et c'était le choix parfait. Le personnel a rendu la soirée mémorable, et la nourriture était tout simplement exceptionnelle.",
+      "author": "Olivia Martinez",
+      "location": "Chicago, IL"
+    },
+    {
+      "title": "Un joyau caché",
+      "description": "Cet endroit est un joyau caché. Tout, de la décoration aux saveurs des plats, était parfait. Nous reviendrons certainement !",
+      "author": "Noah Wilson",
+      "location": "Portland, OR"
+    },
+    {
+      "title": "Service exceptionnel",
+      "description": "Le service était exceptionnel, et la nourriture répondait aux normes les plus élevées. Vous pouvez ressentir la passion et l'attention dans chaque détail.",
+      "author": "Sophia Davis",
+      "location": "Seattle, WA"
+    },
+    {
+      "title": "Chef-d'œuvre culinaire",
+      "description": "Chaque plat était un chef-d'œuvre culinaire. Le chef sait vraiment comment associer les saveurs et les textures pour créer quelque chose de magique.",
+      "author": "Liam Brown",
+      "location": "Miami, FL"
+    },
+    {
+      "title": "Un festin pour les sens",
+      "description": "Ce restaurant propose un festin pour tous les sens. La présentation visuelle, l'arôme et les saveurs sont incomparables.",
+      "author": "Ava Johnson",
+      "location": "Denver, CO"
+    },
+    {
+      "title": "Le meilleur endroit pour un rendez-vous",
+      "description": "Mon partenaire et moi avons passé la meilleure soirée ici. L'ambiance était romantique, et la nourriture impeccable. Je le recommande vivement!",
+      "author": "Ethan Garcia",
+      "location": "Phoenix, AZ"
+    },
+    {
+      "title": "Ça vaut chaque centime",
+      "description": "Ce restaurant peut être un peu cher, mais cela vaut chaque centime. Vous obtenez une expérience inoubliable et des plats de classe mondiale.",
+      "author": "Isabella Hernandez",
+      "location": "Dallas, TX"
+    },
+    {
+      "title": "Idéal pour les familles",
+      "description": "Nous avons amené nos enfants et le personnel était très accueillant. Le menu avait quelque chose pour tout le monde, et chaque plat était superbe.",
+      "author": "Charlotte Thomas",
+      "location": "Atlanta, GA"
+    }
+  ],
   "contactUsHeading": "Contactez-nous"
 }
