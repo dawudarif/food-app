@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Navigate, Route } from "react-router";
 import { Routes } from "react-router-dom";
 import Header from "./components/layout/Header/Header";
-import { LanguageWrapper } from "./lib/languageWrapper";
+import { LanguageWrapper } from "./lib/LanguageWrapper";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";

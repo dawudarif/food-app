@@ -8,15 +8,14 @@ export default function HomeHero() {
     <section data-testid="home-hero" className={styles.main}>
       <div className="container">
         <div className={styles.content}>
-          <h1>{t("heroText")}</h1>
-          <h6>
-            Discover delectable cuisine and unforgettable moments in our
-            welcoming, culinary haven.
-          </h6>
+          <h1>{t("hero.title")}</h1>
+          <h6>{t("hero.desc")}</h6>
 
           <div>
-            <button className={styles.redBtn}>Book A Table</button>
-            <button className={styles.transparentBtn}>Explore Menu</button>
+            <button className={styles.redBtn}>{t("hero.buttonOne")}</button>
+            <button className={styles.transparentBtn}>
+              {t("hero.buttonTwo")}
+            </button>
           </div>
         </div>
       </div>

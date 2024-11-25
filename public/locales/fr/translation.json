@@ -1,4 +1,29 @@
 {
-  "heroText": "La meilleure nourriture à votre goût",
+  "hero": {
+    "title": "La meilleure nourriture à votre goût",
+    "desc": "Découvrez une cuisine délicieuse et des moments inoubliables dans notre havre de paix accueillant et culinaire.",
+    "buttonOne": "Réserver une table",
+    "buttonTwo": "Explorer le menu"
+  },
+  "menu": {
+    "title": "Parcourez notre menu",
+    "button": "Explorer le menu",
+    "breakfast": {
+      "title": "Petit Déjeuner",
+      "content": "Commencez votre journée avec des repas riches en énergie."
+    },
+    "mainDishes": {
+      "title": "Plats Principaux",
+      "content": "Savourez des plats copieux et savoureux faits avec des ingrédients frais."
+    },
+    "drinks": {
+      "title": "Boissons",
+      "content": "Rafraîchissez votre palais avec notre large gamme de boissons."
+    },
+    "desserts": {
+      "title": "Desserts",
+      "content": "Dégustez des douceurs et desserts délicieux préparés avec soin."
+    }
+  },
   "contactUsHeading": "Contactez-nous"
 }

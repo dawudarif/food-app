@@ -1,4 +1,29 @@
 {
-  "heroText": "Best food for your tastes",
+  "hero": {
+    "title": "Best food for your tastes",
+    "desc": "Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.",
+    "buttonOne": "Book A Table",
+    "buttonTwo": "Explore Menu"
+  },
+  "menu": {
+    "title": "Browse Our Menu",
+    "button": "Explore Menu",
+    "breakfast": {
+      "title": "Breakfast",
+      "content": "Start your day with energy-packed meals crafted to perfection."
+    },
+    "mainDishes": {
+      "title": "Main Dishes",
+      "content": "Savor hearty, flavorful dishes made with fresh, quality ingredients."
+    },
+    "drinks": {
+      "title": "Drinks",
+      "content": "Refresh your palate with our wide range of beverages and cocktails."
+    },
+    "desserts": {
+      "title": "Desserts",
+      "content": "Indulge in sweet treats and delectable desserts crafted with care."
+    }
+  },
   "contactUsHeading": "Contact Us"
 }
