@@ -1,0 +1,36 @@
+{
+  "routes": {
+    "home": "Inicio",
+    "about": "Sobre Nosotros",
+    "menu": "Menú",
+    "pages": "Páginas",
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "title": "La mejor comida para tus gustos",
+    "desc": "Descubre una cocina deliciosa y momentos inolvidables en nuestro acogedor paraíso culinario.",
+    "buttonOne": "Reservar una Mesa",
+    "buttonTwo": "Explorar el Menú"
+  },
+  "menu": {
+    "title": "Explora Nuestro Menú",
+    "button": "Explorar el Menú",
+    "breakfast": {
+      "title": "Desayuno",
+      "content": "Comienza tu día con comidas energéticas preparadas a la perfección."
+    },
+    "mainDishes": {
+      "title": "Platos Principales",
+      "content": "Saborea platos abundantes y llenos de sabor, elaborados con ingredientes frescos y de calidad."
+    },
+    "drinks": {
+      "title": "Bebidas",
+      "content": "Refresca tu paladar con nuestra amplia gama de bebidas y cócteles."
+    },
+    "desserts": {
+      "title": "Postres",
+      "content": "Disfruta de dulces y postres deliciosos elaborados con cariño."
+    }
+  },
+  "contactUsHeading": "Contáctanos"
+}

@@ -11,8 +11,12 @@ export const LanguageWrapper = ({
   const { lng } = useParams();
 
   React.useEffect(() => {
-    if (i18n.language !== lng) {
+    if (lng && i18n.language !== lng) {
       i18n.changeLanguage(lng);
+      localStorage.setItem("language", lng);
+    } else if (!lng) {
+      const savedLanguage = localStorage.getItem("language") || "en";
+      i18n.changeLanguage(savedLanguage);
     }
   }, [lng, i18n]);
 

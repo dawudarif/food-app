@@ -92,8 +92,6 @@ const NavLinks = ({ pathname }: { pathname: string }) => {
   return (
     <>
       {routes.map((item, index) => {
-        console.log(pathname === item.path);
-
         const activeClasses =
           pathname === item.path ? styles.activeLink : undefined;
 
