@@ -19,7 +19,6 @@ export const LanguageWrapper = ({
     } else {
       content?.classList.remove("urdu");
     }
-
     if (lng && i18n.language !== lng) {
       i18n.changeLanguage(lng);
       localStorage.setItem("language", lng);
