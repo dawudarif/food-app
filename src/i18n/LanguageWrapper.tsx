@@ -9,8 +9,17 @@ export const LanguageWrapper = ({
 }) => {
   const { i18n } = useTranslation();
   const { lng } = useParams();
+  const content = document.getElementById("root");
+
+  console.log(lng);
 
   React.useEffect(() => {
+    if (lng === "ur" || lng === "ar") {
+      content?.classList.add("urdu");
+    } else {
+      content?.classList.remove("urdu");
+    }
+
     if (lng && i18n.language !== lng) {
       i18n.changeLanguage(lng);
       localStorage.setItem("language", lng);
