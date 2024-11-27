@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import styles from "./HomeHero.module.scss";
 
 export default function HomeHero() {
@@ -12,7 +13,9 @@ export default function HomeHero() {
           <h6>{t("hero.desc")}</h6>
 
           <div>
-            <button className={styles.redBtn}>{t("hero.buttonOne")}</button>
+            <Link to="book-a-table">
+              <button className={styles.redBtn}>{t("hero.buttonOne")}</button>
+            </Link>
             <button className={styles.transparentBtn}>
               {t("hero.buttonTwo")}
             </button>

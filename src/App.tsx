@@ -3,12 +3,12 @@ import { useTranslation } from "react-i18next";
 import { Navigate, Route } from "react-router";
 import { Routes } from "react-router-dom";
 import Header from "./components/layout/Header/Header";
-import useTranslatedRoutes from "./hooks/useTranlatedRoutes";
+import useTranslatedRoutes from "./hooks/useTranslatedRoutes";
 import { LanguageWrapper } from "./i18n/LanguageWrapper";
 import "./styles/globals.scss";
 
 function App() {
-  const routes = useTranslatedRoutes();
+  const routes = useTranslatedRoutes({ nav: false });
   const { i18n } = useTranslation();
 
   return (
