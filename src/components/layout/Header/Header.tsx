@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { Facebook, Instagram, Mail, Menu, Phone, Twitter } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import useTranslatedRoutes from "../../../hooks/useTranlatedRoutes";
+import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
 import styles from "./Header.module.scss";
 
 export default function Header() {
@@ -45,7 +45,7 @@ export default function Header() {
         </div>
 
         <div className={styles.navbar}>
-          <div className={clsx("container")}>
+          <div className={clsx("container", styles.navbarContainer)}>
             <div className={styles.iconContainer}>
               <img src="/favicon.svg" alt="logo" />
               <p>Bistro Bliss</p>
@@ -63,7 +63,9 @@ export default function Header() {
                 onClick={() => setShowMobileHeader(!showMobileHeader)}
               />
 
-              <button className={styles.navBtn}>Book A Table</button>
+              <Link to="/book-a-table">
+                <button className={styles.navBtn}>Book A Table</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -78,7 +80,9 @@ export default function Header() {
             )}
           >
             <NavLinks pathname={pathname} />
-            <button className={styles.navBtn}>Book A Table</button>
+            <Link to="/book-a-table">
+              <button className={styles.navBtn}>Book A Table</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -87,7 +91,7 @@ export default function Header() {
 }
 
 const NavLinks = ({ pathname }: { pathname: string }) => {
-  const routes = useTranslatedRoutes();
+  const routes = useTranslatedRoutes({ nav: true });
 
   return (
     <>

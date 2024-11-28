@@ -40,3 +40,16 @@
     }
   }
 }
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.leaflet-map {
+  .leaflet-control {
+    display: none !important;
+  }
+}

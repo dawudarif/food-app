@@ -1,0 +1,122 @@
+@import "../../styles/variables";
+
+.main {
+  background-color: $brand-light-gray;
+  overflow-x: hidden;
+
+  .contentContainer {
+    max-width: 53.25rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4.625rem 1rem 0 1rem;
+
+    @media (min-width: 1024px) {
+      padding: 4.625rem 2.5rem 0 2.5rem;
+    }
+
+    h1 {
+      font-size: 6.25rem;
+      line-height: 6rem;
+      font-weight: 400;
+      font-family: $styled-font;
+      margin-bottom: 1.75rem;
+      text-align: center;
+      color: $brand-text;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 400;
+      text-align: center;
+      color: #495460;
+    }
+
+    .form {
+      box-shadow: 0px 0.1862rem 3.7231rem 0px rgba(0, 0, 0, 0.08);
+      padding: 1rem;
+      display: flex !important;
+      flex-direction: column;
+      gap: 1.5rem;
+      border-radius: 1rem;
+      background-color: white;
+      margin-bottom: -15rem;
+      margin-top: 4.5rem;
+      z-index: 450;
+      position: relative;
+
+      @media (min-width: 768px) {
+        padding: 1.25rem;
+      }
+
+      .rowInputs {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        @media (min-width: 768px) {
+          flex-direction: row;
+        }
+
+        .input {
+          width: 100%;
+
+          @media (min-width: 768px) {
+            width: 50%;
+          }
+
+          input {
+            width: 100%;
+          }
+        }
+      }
+
+      .inputLabel {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $brand-text;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        text-align: left;
+      }
+
+      .input {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 0.5rem;
+        display: inline-block;
+
+        .inputAria {
+          padding: 0.625rem 1.5rem;
+          outline: none;
+          border: 0.0625rem solid #dbdfd0;
+          color: #737865;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: 400;
+          border-radius: 4.5rem;
+          width: 100%;
+        }
+      }
+
+      button {
+        border-radius: 7.375rem;
+        background: $brand-red;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: white;
+        font-weight: bold;
+        padding: 0.9375rem 0.625rem;
+        width: 100%;
+        text-align: center;
+        border: transparent;
+
+        @media (min-width: 768px) {
+          padding: 1.25rem 0.625rem;
+        }
+      }
+    }
+  }
+}

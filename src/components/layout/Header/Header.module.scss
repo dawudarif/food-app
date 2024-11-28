@@ -58,7 +58,7 @@
   padding-bottom: 1.25rem;
   width: 100%;
 
-  div {
+  .navbarContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,24 +116,29 @@
     @media (min-width: 1100px) {
       gap: 7.5rem;
     }
-    .navLinks a {
-      padding: 0.25rem 1rem;
-      display: inline-block;
-      color: $brand-text;
-      border-radius: 2.125rem;
-      text-decoration: none;
-      text-transform: capitalize;
-      font-size: 1rem;
-      line-height: 1.5rem;
-      font-weight: 500;
-      display: none;
 
-      &:hover {
-        background: #dbdfd0;
-      }
+    .navLinks {
+      display: flex;
 
-      @media (min-width: 768px) {
-        display: block;
+      a {
+        padding: 0.25rem 1rem;
+        display: inline-block;
+        color: $brand-text;
+        border-radius: 2.125rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        display: none;
+
+        &:hover {
+          background: #dbdfd0;
+        }
+
+        @media (min-width: 768px) {
+          display: block;
+        }
       }
     }
 
