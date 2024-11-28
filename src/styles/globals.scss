@@ -47,3 +47,9 @@ a {
 button {
   cursor: pointer;
 }
+
+.leaflet-map {
+  .leaflet-control {
+    display: none !important;
+  }
+}
