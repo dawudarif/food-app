@@ -11,3 +11,9 @@ interface Translations {
   author: string;
   location: string;
 }
+
+interface Language {
+  label: string;
+  name: string;
+  image: string;
+}

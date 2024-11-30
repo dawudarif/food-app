@@ -4,7 +4,6 @@
   width: 100%;
   position: relative;
   z-index: 100;
-  overflow: hidden;
   background: white;
 
   .thinHeader {
@@ -237,6 +236,47 @@
       &.visible {
         transform: translateY(0%);
         pointer-events: auto;
+      }
+    }
+  }
+}
+
+.dropdown {
+  position: relative;
+  opacity: 1 !important;
+
+  .dropdownContainer {
+    position: absolute;
+    top: 110%;
+    background-color: white;
+    border-radius: 0.5rem;
+    z-index: 500;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.625rem;
+      padding: 0.625rem;
+
+      &:hover {
+        background-color: $brand-red;
+
+        color: white;
+      }
+
+      img {
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        text-transform: capitalize;
       }
     }
   }
