@@ -1,13 +1,28 @@
 import clsx from "clsx";
-import { Facebook, Instagram, Mail, Menu, Phone, Twitter } from "lucide-react";
-import { useEffect, useState } from "react";
+import {
+  Facebook,
+  Instagram,
+  Languages,
+  Mail,
+  Menu,
+  Phone,
+  Twitter,
+} from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
+import i18n from "../../../i18n/i18next";
+import { getTranslationLocales } from "../../../lib/getTranslationLocales";
 import styles from "./Header.module.scss";
 
 export default function Header() {
   const { pathname } = useLocation();
+  const dropdownRef = useRef<HTMLDivElement>(null);
   const [showMobileHeader, setShowMobileHeader] = useState(false);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const languages = getTranslationLocales({
+    type: "all",
+  }) as Language[];
 
   useEffect(() => {
     setShowMobileHeader(false);
@@ -39,6 +54,34 @@ export default function Header() {
               </div>
               <div className={styles.socialIcon}>
                 <Instagram size={20} color="white" />
+              </div>
+              <div
+                className={clsx(styles.dropdown, styles.socialIcon)}
+                onClick={() =>
+                  setIsLanguageDropdownOpen(!isLanguageDropdownOpen)
+                }
+              >
+                <Languages size={20} color="white" />
+                <div
+                  className={clsx(styles.dropdownContainer)}
+                  ref={dropdownRef}
+                  style={{
+                    height: isLanguageDropdownOpen
+                      ? `${dropdownRef.current?.scrollHeight}px`
+                      : "0px",
+                    scale: isLanguageDropdownOpen ? "1" : "0.5",
+                  }}
+                >
+                  {languages.map((locale) => (
+                    <div
+                      key={locale.label}
+                      onClick={() => i18n.changeLanguage(locale.label)}
+                    >
+                      <img src={locale.image} alt={locale.name} />
+                      <p>{locale.name}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
