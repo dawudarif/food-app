@@ -1,17 +1,21 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { useParams } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
+import { getTranslationLocales } from "../lib/getTranslationLocales";
 
 export const LanguageWrapper = ({
   children,
 }: {
   children: React.ReactNode;
 }) => {
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
   const { i18n } = useTranslation();
-  const { lng } = useParams();
+  const lng = i18n.language;
   const content = document.getElementById("root");
-
-  console.log(lng);
+  const languageLabels = getTranslationLocales({
+    type: "label",
+  }) as string[];
 
   React.useEffect(() => {
     if (lng === "ur" || lng === "ar") {
@@ -27,6 +31,16 @@ export const LanguageWrapper = ({
       i18n.changeLanguage(savedLanguage);
     }
   }, [lng, i18n]);
+
+  React.useEffect(() => {
+    const matchedLanguage = languageLabels?.find((lang) =>
+      pathname.startsWith(`/${lang}`)
+    );
+    const path = pathname.split(`${matchedLanguage}`)[1];
+    if (!matchedLanguage && !path) return;
+    let newPath = `/${i18n.language}${path}`;
+    navigate(newPath, { replace: true });
+  }, [i18n.language, pathname]);
 
   return <>{children}</>;
 };

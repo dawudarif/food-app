@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { changeLanguage } from "i18next";
 import {
   Facebook,
   Instagram,
@@ -11,12 +12,12 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
-import i18n from "../../../i18n/i18next";
 import { getTranslationLocales } from "../../../lib/getTranslationLocales";
 import styles from "./Header.module.scss";
 
 export default function Header() {
   const { pathname } = useLocation();
+
   const dropdownRef = useRef<HTMLDivElement>(null);
   const [showMobileHeader, setShowMobileHeader] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -69,13 +70,13 @@ export default function Header() {
                     height: isLanguageDropdownOpen
                       ? `${dropdownRef.current?.scrollHeight}px`
                       : "0px",
-                    scale: isLanguageDropdownOpen ? "1" : "0.5",
+                    scale: isLanguageDropdownOpen ? "1" : "0.8",
                   }}
                 >
                   {languages.map((locale) => (
                     <div
                       key={locale.label}
-                      onClick={() => i18n.changeLanguage(locale.label)}
+                      onClick={() => changeLanguage(locale.label)}
                     >
                       <img src={locale.image} alt={locale.name} />
                       <p>{locale.name}</p>
