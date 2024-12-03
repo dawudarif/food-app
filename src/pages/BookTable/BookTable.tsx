@@ -1,9 +1,8 @@
-import styles from "./BookTable.module.scss";
-import Select from "react-select";
 import "leaflet/dist/leaflet.css";
-import MapComponent from "../../components/MapComponent/MapComponent";
 import React from "react";
+import MapComponent from "../../components/MapComponent/MapComponent";
 import SingleSelect from "../../components/SingleSelect/SingleSelect";
+import styles from "./BookTable.module.scss";
 
 export default function BookTable() {
   const [selectedValue, setSelectedValue] = React.useState<any>();
@@ -29,21 +28,41 @@ export default function BookTable() {
           <div className={styles.rowInputs}>
             <label htmlFor="date" className={styles.input}>
               <p className={styles.inputLabel}>Date</p>
-              <input name="date" className={styles.inputAria} type="date" />
+              <input
+                name="date"
+                className={styles.inputAria}
+                placeholder="dd/mm/yy"
+                type="date"
+              />
             </label>
             <label htmlFor="time" className={styles.input}>
-              <p className={styles.inputLabel}>Date</p>
-              <input name="time" className={styles.inputAria} type="time" />
+              <p className={styles.inputLabel}>Time</p>
+              <input
+                name="time"
+                className={styles.inputAria}
+                placeholder="14:00"
+                type="time"
+              />
             </label>
           </div>
           <div className={styles.rowInputs}>
             <label htmlFor="name" className={styles.input}>
               <p className={styles.inputLabel}>Name</p>
-              <input name="name" className={styles.inputAria} type="text" />
+              <input
+                name="name"
+                className={styles.inputAria}
+                type="text"
+                placeholder="Name"
+              />
             </label>
             <label htmlFor="phone" className={styles.input}>
               <p className={styles.inputLabel}>Phone</p>
-              <input name="phone" className={styles.inputAria} type="number" />
+              <input
+                name="phone"
+                className={styles.inputAria}
+                type="number"
+                placeholder="Phone"
+              />
             </label>
           </div>
 

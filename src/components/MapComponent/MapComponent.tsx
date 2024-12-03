@@ -7,7 +7,7 @@ export default function MapComponent() {
     <MapContainer
       scrollWheelZoom={false}
       center={position}
-      zoom={12}
+      zoom={11}
       style={{ height: "47.9375rem", width: "100%" }}
       className="leaflet-map"
     >
