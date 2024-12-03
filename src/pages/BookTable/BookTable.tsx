@@ -27,23 +27,23 @@ export default function BookTable() {
 
         <form className={styles.form}>
           <div className={styles.rowInputs}>
-            <label htmlFor="name" className={styles.input}>
+            <label htmlFor="date" className={styles.input}>
               <p className={styles.inputLabel}>Date</p>
-              <input className={styles.inputAria} type="date" />
+              <input name="date" className={styles.inputAria} type="date" />
             </label>
-            <label htmlFor="name" className={styles.input}>
+            <label htmlFor="time" className={styles.input}>
               <p className={styles.inputLabel}>Date</p>
-              <input className={styles.inputAria} type="time" />
+              <input name="time" className={styles.inputAria} type="time" />
             </label>
           </div>
           <div className={styles.rowInputs}>
             <label htmlFor="name" className={styles.input}>
               <p className={styles.inputLabel}>Name</p>
-              <input className={styles.inputAria} type="text" />
+              <input name="name" className={styles.inputAria} type="text" />
             </label>
-            <label htmlFor="name" className={styles.input}>
+            <label htmlFor="phone" className={styles.input}>
               <p className={styles.inputLabel}>Phone</p>
-              <input className={styles.inputAria} type="number" />
+              <input name="phone" className={styles.inputAria} type="number" />
             </label>
           </div>
 
