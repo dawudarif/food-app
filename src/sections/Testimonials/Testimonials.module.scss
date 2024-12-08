@@ -22,7 +22,7 @@
   height: 100%;
 
   .textContainer {
-    padding: 2.8125rem 2.1875rem 2.1875rem 2.1875rem;
+    padding: 1.5rem;
     border-radius: 0.75rem;
     background-color: $brand-light-gray;
     max-width: 26rem;
@@ -32,6 +32,10 @@
     flex-direction: column;
     gap: 2rem;
     height: 100%;
+
+    @media (min-width: 768px) {
+      padding: 2.8125rem 2.1875rem 2.1875rem 2.1875rem;
+    }
 
     h1 {
       font-size: 1.5rem;
@@ -59,7 +63,7 @@
       gap: 1.25rem;
 
       span {
-        font-size: 1.125rem;
+        font-size: 1rem;
         line-height: 1.625rem;
         font-weight: 700;
         background-color: $brand-text;
@@ -68,8 +72,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 3.125rem;
-        height: 3.125rem;
+        width: 2.5rem;
+        height: 2.5rem;
         text-transform: uppercase;
       }
 

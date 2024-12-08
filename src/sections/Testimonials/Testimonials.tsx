@@ -26,6 +26,7 @@ export default function Testimonials() {
         breakpoint: 640,
         settings: {
           slidesToShow: 1,
+          variableWidth: true,
         },
       },
       {

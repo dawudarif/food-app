@@ -1,0 +1,154 @@
+@import "../../../styles/variables";
+
+.footerMain {
+  background-color: $brand-dark-gray;
+  width: 100%;
+  padding-top: 4.375rem;
+
+  @media (min-width: 1024px) {
+    padding-top: 7.5rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: start;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    align-items: start;
+
+    @media (min-width: 460px) and (max-width: 768px) {
+      justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
+
+    .logoContent {
+      max-width: 18.3125rem;
+      width: 100%;
+
+      span {
+        display: flex;
+        align-items: center;
+        gap: 0.625rem;
+
+        h1 {
+          font-size: 2rem;
+          line-height: 1.8125rem;
+          letter-spacing: -0.025rem;
+          font-weight: 600;
+          font-family: $styled-font;
+          color: white;
+          font-style: italic;
+        }
+
+        img {
+          height: 3.5rem;
+          width: 3.5rem;
+        }
+      }
+
+      p {
+        margin: 1.875rem 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: $brand-gray-1;
+      }
+
+      .socialIcons {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+
+        span {
+          height: 2.1875rem;
+          width: 2.1875rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: $brand-red;
+          border-radius: 100%;
+        }
+      }
+    }
+
+    .pages {
+      max-width: 6.25rem;
+      width: 100%;
+
+      h1 {
+        margin-bottom: 2.5rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+        color: white;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        a {
+          text-decoration: none;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: 400;
+          color: $brand-gray-2;
+        }
+      }
+    }
+
+    .images {
+      max-width: 25.1875rem;
+      width: 100%;
+
+      h1 {
+        color: white;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+      }
+
+      div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.9375rem;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          border-radius: 0.75rem;
+          height: 8rem;
+
+          @media (min-width: 768px) {
+            height: 10.625rem;
+          }
+        }
+      }
+    }
+  }
+
+  .rightsContent {
+    margin-top: 4.375rem;
+    padding-bottom: 1.25rem;
+    padding-top: 1.875rem;
+    border-top: 0.0625rem solid $brand-light-text;
+
+    @media (min-width: 768px) {
+      margin-top: 6.25rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 400;
+      color: $brand-gray-1;
+      text-align: center;
+    }
+  }
+}
