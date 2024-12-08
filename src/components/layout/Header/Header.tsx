@@ -92,10 +92,10 @@ export default function Header() {
 
         <div className={styles.navbar}>
           <div className={clsx("container", styles.navbarContainer)}>
-            <div className={styles.iconContainer}>
+            <Link to="/" className={styles.iconContainer}>
               <img src="/favicon.svg" alt="logo" />
               <p>Bistro Bliss</p>
-            </div>
+            </Link>
 
             <div className={styles.navContainer}>
               <div className={styles.navLinks}>
