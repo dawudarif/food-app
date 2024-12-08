@@ -211,17 +211,20 @@
         }
       }
 
-      button {
+      .mobileNavBtn {
         margin-top: 1rem;
-        border: 0.125rem solid $brand-dark-gray;
-        color: $brand-dark-gray;
-        font-size: 1rem;
-        line-height: 1.5rem;
-        font-weight: bold;
-        border-radius: 7.375rem;
-        padding: 0.25rem 0.8rem;
-        background: transparent;
-        text-wrap: nowrap;
+
+        button {
+          border: 0.125rem solid $brand-dark-gray;
+          color: $brand-dark-gray;
+          font-size: 1rem;
+          line-height: 1.5rem;
+          font-weight: bold;
+          border-radius: 7.375rem;
+          padding: 0.25rem 0.8rem;
+          background: transparent;
+          text-wrap: nowrap;
+        }
       }
 
       @media (min-width: 768px) {
@@ -244,6 +247,7 @@
 .dropdown {
   position: relative;
   opacity: 1 !important;
+  user-select: none;
 
   .dropdownContainer {
     position: absolute;
@@ -253,7 +257,12 @@
     z-index: 500;
     overflow: hidden;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: opacity 0.25s ease, scale 0.3s ease;
+
+    .activeLng {
+      background-color: $brand-red;
+      color: white;
+    }
 
     div {
       display: flex;
@@ -264,7 +273,6 @@
 
       &:hover {
         background-color: $brand-red;
-
         color: white;
       }
 
@@ -279,5 +287,16 @@
         text-transform: capitalize;
       }
     }
+  }
+
+  .showDropdown {
+    opacity: 100;
+    scale: 1;
+  }
+
+  .hideDropdown {
+    opacity: 0;
+    scale: 0.9;
+    z-index: -200;
   }
 }

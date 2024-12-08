@@ -9,7 +9,8 @@ import {
   Phone,
   Twitter,
 } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
 import { getTranslationLocales } from "../../../lib/getTranslationLocales";
@@ -17,8 +18,9 @@ import styles from "./Header.module.scss";
 
 export default function Header() {
   const { pathname } = useLocation();
+  const { i18n } = useTranslation();
+  const lng = i18n.language;
 
-  const dropdownRef = useRef<HTMLDivElement>(null);
   const [showMobileHeader, setShowMobileHeader] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const languages = getTranslationLocales({
@@ -64,19 +66,19 @@ export default function Header() {
               >
                 <Languages size={20} color="white" />
                 <div
-                  className={clsx(styles.dropdownContainer)}
-                  ref={dropdownRef}
-                  style={{
-                    height: isLanguageDropdownOpen
-                      ? `${dropdownRef.current?.scrollHeight}px`
-                      : "0px",
-                    scale: isLanguageDropdownOpen ? "1" : "0.8",
-                  }}
+                  className={clsx(
+                    styles.dropdownContainer,
+
+                    isLanguageDropdownOpen
+                      ? styles.showDropdown
+                      : styles.hideDropdown
+                  )}
                 >
                   {languages.map((locale) => (
                     <div
                       key={locale.label}
                       onClick={() => changeLanguage(locale.label)}
+                      className={clsx(lng === locale.label && styles.activeLng)}
                     >
                       <img src={locale.image} alt={locale.name} />
                       <p>{locale.name}</p>
@@ -90,10 +92,10 @@ export default function Header() {
 
         <div className={styles.navbar}>
           <div className={clsx("container", styles.navbarContainer)}>
-            <div className={styles.iconContainer}>
+            <Link to="/" className={styles.iconContainer}>
               <img src="/favicon.svg" alt="logo" />
               <p>Bistro Bliss</p>
-            </div>
+            </Link>
 
             <div className={styles.navContainer}>
               <div className={styles.navLinks}>
@@ -124,8 +126,8 @@ export default function Header() {
             )}
           >
             <NavLinks pathname={pathname} />
-            <Link to="/book-a-table">
-              <button className={styles.navBtn}>Book A Table</button>
+            <Link to="/book-a-table" className={styles.mobileNavBtn}>
+              <button>Book A Table</button>
             </Link>
           </div>
         </div>

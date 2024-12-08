@@ -28,8 +28,12 @@
 .slick {
   .slick-list .slick-track {
     display: flex !important;
-    gap: 1.5rem;
     height: inherit !important;
+    gap: 0.625rem;
+
+    @media (min-width: 768px) {
+      gap: 0.9375rem;
+    }
 
     .slick-slide {
       height: inherit !important;
