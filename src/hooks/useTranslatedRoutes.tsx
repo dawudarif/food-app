@@ -28,7 +28,7 @@ const useTranslatedRoutes = ({ nav = true }: { nav?: boolean }) => {
   if (nav) {
     return navPaths;
   } else {
-    return [...routeList, ...navPaths];
+    return [...navPaths, ...routeList];
   }
 };
 

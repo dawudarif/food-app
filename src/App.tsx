@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { useTranslation } from "react-i18next";
 import { Navigate, Route } from "react-router";
 import { Routes } from "react-router-dom";
+import Footer from "./components/layout/Footer/Footer";
 import Header from "./components/layout/Header/Header";
 import useTranslatedRoutes from "./hooks/useTranslatedRoutes";
 import { LanguageWrapper } from "./i18n/LanguageWrapper";
@@ -32,6 +33,7 @@ function App() {
           );
         })}
       </Routes>
+      <Footer />
     </>
   );
 }
