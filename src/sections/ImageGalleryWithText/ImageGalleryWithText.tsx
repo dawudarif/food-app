@@ -3,6 +3,7 @@ import styles from "./ImageGalleryWithText.module.scss";
 import clockIcon from "../../assets/clock.svg";
 import receiptIcon from "../../assets/receipt-tax.svg";
 import cartIcon from "../../assets/shopping-cart.svg";
+import { useTranslation } from "react-i18next";
 
 const images = [
   "https://res.cloudinary.com/dowc89eyy/image/upload/v1731905175/food-app/wkble7q9csgj8wwsrzmh.jpg",
@@ -10,16 +11,18 @@ const images = [
   "https://res.cloudinary.com/dowc89eyy/image/upload/v1731905156/food-app/tp50vufghibxfywkeuen.jpg",
 ];
 
-const items = [
-  { icon: clockIcon, text: "Delivery within 30 minutes" },
-  { icon: receiptIcon, text: "Best Offer & Prices" },
-  {
-    icon: cartIcon,
-    text: "Online Services Available",
-  },
-];
-
 export default function ImageGalleryWithText() {
+  const { t } = useTranslation();
+
+  const items = [
+    { icon: clockIcon, text: t("ImageGalleryWithText.featureText1") },
+    { icon: receiptIcon, text: t("ImageGalleryWithText.featureText2") },
+    {
+      icon: cartIcon,
+      text: t("ImageGalleryWithText.featureText3"),
+    },
+  ];
+
   return (
     <section data-testid="image-gallery-with-text" className={styles.main}>
       <div className={clsx(styles.contentContainer, "container")}>
@@ -33,11 +36,8 @@ export default function ImageGalleryWithText() {
         </div>
 
         <div className={styles.textContainer}>
-          <h1>Fastest Food Delivery in City</h1>
-          <p>
-            Our visual designer lets you quickly and of drag a down your way to
-            customapps for both keep desktop.
-          </p>
+          <h1>{t("ImageGalleryWithText.title")}</h1>
+          <p>{t("ImageGalleryWithText.description")}</p>
 
           <div className={styles.iconsContainer}>
             {items.map((item, index) => {

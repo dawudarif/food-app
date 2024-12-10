@@ -115,6 +115,7 @@
     }
   ],
   "contactUsHeading": "Contactez-nous",
+  "overlayHeading": "Sentez le goût authentique et original chez nous",
   "overlayFeatures": [
     {
       "title": "Cuisine variée",
@@ -128,5 +129,12 @@
       "title": "Livraison rapide",
       "description": "Recevez votre commande rapidement et fraîche, grâce à notre service de livraison fiable et efficace."
     }
-  ]
+  ],
+  "ImageGalleryWithText": {
+    "title": "Livraison de nourriture la plus rapide en ville",
+    "description": "Nous livrons vos repas préférés, chauds, à votre porte avec la livraison la plus rapide en ville.",
+    "featureText1": "Livraison en 30 minutes",
+    "featureText2": "Meilleures offres et prix",
+    "featureText3": "Services en ligne disponibles"
+  }
 }

@@ -115,6 +115,7 @@
     }
   ],
   "contactUsHeading": "Contáctanos",
+  "overlayHeading": "Siente el sabor auténtico y original con nosotros",
   "overlayFeatures": [
     {
       "title": "Cocina variada",
@@ -128,5 +129,11 @@
       "title": "Entrega rápida",
       "description": "Recibe tu pedido rápidamente y fresco, con nuestro servicio de entrega confiable y eficiente."
     }
-  ]
+  ],
+  "ImageGalleryWithText": {
+    "title": "Entrega de comida más rápida en la ciudad",
+    "description": "Entregamos tus comidas favoritas, calientes, a tu puerta con la entrega más rápida de la ciudad.",
+    "featureText1": "Entrega en 30 minutos",
+    "featureText2": "Mejores ofertas y precios"
+  }
 }
