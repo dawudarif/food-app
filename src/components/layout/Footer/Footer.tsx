@@ -44,8 +44,10 @@ export default function Footer() {
         <div className={styles.pages}>
           <h1>Pages</h1>
           <div>
-            {links.map((link) => (
-              <Link to={link.path}>{link.name}</Link>
+            {links.map((link, i) => (
+              <Link to={link.path} key={i}>
+                {link.name}
+              </Link>
             ))}
           </div>
         </div>
@@ -54,7 +56,7 @@ export default function Footer() {
           <h1>Follow Us On Instagram</h1>
           <div>
             {images.map((item, i) => (
-              <img src={item} alt={"image" + i + 1} />
+              <img key={i} src={item} alt={"image" + i + 1} />
             ))}
           </div>
         </div>

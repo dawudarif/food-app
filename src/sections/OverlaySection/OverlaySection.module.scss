@@ -1,0 +1,86 @@
+@import "../../styles/variables";
+
+.overlay {
+  background: url(https://res.cloudinary.com/dowc89eyy/image/upload/v1733851048/food-app/te3zq6smzr5tzlmjyo5r.png);
+  height: 37.125rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10rem;
+
+  @media (min-width: 768px) {
+    height: 43.125rem;
+    padding-bottom: 13.4375rem;
+  }
+
+  h1 {
+    font-family: $styled-font;
+    color: white;
+    font-size: 2.8125rem;
+    line-height: 3.125rem;
+    font-weight: 500;
+    max-width: 37.25rem;
+    width: 100%;
+    text-align: center;
+    margin: 0 0.5rem;
+
+    @media (min-width: 768px) {
+      font-size: 3.4375rem;
+      line-height: 3.7813rem;
+    }
+  }
+}
+
+.features {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+
+  @media (min-width: 768px) {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5.9375rem;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 5.4375rem;
+  }
+
+  div {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+
+    @media (min-width: 1024px) {
+      gap: 1.5rem;
+    }
+
+    img {
+      height: 3rem;
+      width: 3rem;
+    }
+
+    h4 {
+      margin-bottom: 0.625rem;
+      font-size: 1.25rem;
+      line-height: 1.625rem;
+      color: $brand-text;
+      font-weight: 700;
+    }
+
+    h5 {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 400;
+      color: $brand-light-text;
+    }
+  }
+}

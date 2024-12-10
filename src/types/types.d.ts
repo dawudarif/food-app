@@ -17,3 +17,8 @@ interface Language {
   name: string;
   image: string;
 }
+
+interface Features {
+  title: string;
+  description: string;
+}
