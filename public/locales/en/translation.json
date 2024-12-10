@@ -4,7 +4,8 @@
     "about": "About Us",
     "menu": "Menu",
     "pages": "Pages",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "bookTableBtn": "Book A Table"
   },
   "hero": {
     "title": "Best food for your tastes",
@@ -113,5 +114,19 @@
       "location": "Atlanta, GA"
     }
   ],
-  "contactUsHeading": "Contact Us"
+  "contactUsHeading": "Contact Us",
+  "overlayFeatures": [
+    {
+      "title": "Multi Cuisine",
+      "description": "Explore a variety of cuisines from around the world, all available in one place to satisfy every craving."
+    },
+    {
+      "title": "Easy To Order",
+      "description": "Enjoy a seamless ordering experience with an intuitive interface designed for convenience."
+    },
+    {
+      "title": "Fast Delivery",
+      "description": "Receive your order quickly and fresh, with our reliable and efficient delivery service."
+    }
+  ]
 }
