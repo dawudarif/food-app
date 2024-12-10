@@ -12,7 +12,7 @@ const useTranslatedRoutes = ({ nav = true }: { nav?: boolean }) => {
   const routeList = [
     {
       path: "/book-a-table",
-      name: "Book A Table",
+      name: t("routes.bookTableBtn"),
       element: <BookTable />,
     },
   ];

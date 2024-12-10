@@ -18,6 +18,7 @@ import styles from "./Header.module.scss";
 
 export default function Header() {
   const { pathname } = useLocation();
+  const { t } = useTranslation();
   const { i18n } = useTranslation();
   const lng = i18n.language;
 
@@ -110,7 +111,9 @@ export default function Header() {
               />
 
               <Link to="/book-a-table">
-                <button className={styles.navBtn}>Book A Table</button>
+                <button className={styles.navBtn}>
+                  {t("routes.bookTableBtn")}
+                </button>
               </Link>
             </div>
           </div>
@@ -127,7 +130,7 @@ export default function Header() {
           >
             <NavLinks pathname={pathname} />
             <Link to="/book-a-table" className={styles.mobileNavBtn}>
-              <button>Book A Table</button>
+              <button>{t("routes.bookTableBtn")}</button>
             </Link>
           </div>
         </div>

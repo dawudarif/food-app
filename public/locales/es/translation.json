@@ -4,7 +4,8 @@
     "about": "Sobre Nosotros",
     "menu": "Menú",
     "pages": "Páginas",
-    "contact": "Contáctanos"
+    "contact": "Contáctanos",
+    "bookTableBtn": "Reservar una mesa"
   },
   "hero": {
     "title": "La mejor comida para tus gustos",
@@ -113,5 +114,19 @@
       "location": "Atlanta, GA"
     }
   ],
-  "contactUsHeading": "Contáctanos"
+  "contactUsHeading": "Contáctanos",
+  "overlayFeatures": [
+    {
+      "title": "Cocina variada",
+      "description": "Explora una variedad de cocinas de todo el mundo, todo disponible en un solo lugar para satisfacer todos los antojos."
+    },
+    {
+      "title": "Fácil de pedir",
+      "description": "Disfruta de una experiencia de pedido sencilla con una interfaz intuitiva diseñada para tu comodidad."
+    },
+    {
+      "title": "Entrega rápida",
+      "description": "Recibe tu pedido rápidamente y fresco, con nuestro servicio de entrega confiable y eficiente."
+    }
+  ]
 }
