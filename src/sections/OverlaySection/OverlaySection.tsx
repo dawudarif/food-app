@@ -18,7 +18,7 @@ export default function OverlaySection() {
   return (
     <section data-testid="overlay-section">
       <div className={styles.overlay}>
-        <h1>Feel the authentic & original taste from us</h1>
+        <h1>{t("overlayHeading")}</h1>
       </div>
 
       <div className={clsx("container", styles.features)}>
