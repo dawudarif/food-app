@@ -129,5 +129,12 @@
       "title": "Fast Delivery",
       "description": "Receive your order quickly and fresh, with our reliable and efficient delivery service."
     }
-  ]
+  ],
+  "ImageGalleryWithText": {
+    "title": "Fastest Food Delivery in City",
+    "description": "We provide your favorite, hot meals at your doorstep with the fastest delivery in town.",
+    "featureText1": "Delivery within 30 minutes",
+    "featureText2": "Best Offer & Prices",
+    "featureText3": "Online Services Available"
+  }
 }
