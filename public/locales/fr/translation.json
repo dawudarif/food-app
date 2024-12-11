@@ -136,5 +136,24 @@
     "featureText1": "Livraison en 30 minutes",
     "featureText2": "Meilleures offres et prix",
     "featureText3": "Services en ligne disponibles"
+  },
+  "ourServices": {
+    "heading": "Nous offrons également des services uniques pour vos événements",
+    "catering": {
+      "title": "Service traiteur",
+      "description": "Menus délicieux et personnalisés préparés avec des ingrédients frais pour toute occasion."
+    },
+    "birthdays": {
+      "title": "Anniversaires",
+      "description": "Fêtes à thème passionnantes avec des activités amusantes, des décorations et des friandises personnalisées."
+    },
+    "weddings": {
+      "title": "Mariages",
+      "description": "Planification complète de mariage pour rendre votre journée spéciale inoubliable."
+    },
+    "events": {
+      "title": "Événements",
+      "description": "Gestion professionnelle d'événements pour les rassemblements d'affaires, sociaux et décontractés."
+    }
   }
 }

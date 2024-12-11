@@ -135,5 +135,24 @@
     "description": "Entregamos tus comidas favoritas, calientes, a tu puerta con la entrega más rápida de la ciudad.",
     "featureText1": "Entrega en 30 minutos",
     "featureText2": "Mejores ofertas y precios"
+  },
+  "ourServices": {
+    "heading": "También ofrecemos servicios únicos para tus eventos",
+    "catering": {
+      "title": "Catering",
+      "description": "Menús deliciosos y personalizados elaborados con ingredientes frescos para cualquier ocasión."
+    },
+    "birthdays": {
+      "title": "Cumpleaños",
+      "description": "Fiestas temáticas emocionantes con actividades divertidas, decoración y dulces personalizados."
+    },
+    "weddings": {
+      "title": "Bodas",
+      "description": "Planificación completa de bodas para hacer tu día especial inolvidable."
+    },
+    "events": {
+      "title": "Eventos",
+      "description": "Gestión profesional de eventos para reuniones corporativas, sociales y casuales."
+    }
   }
 }
