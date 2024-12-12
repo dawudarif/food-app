@@ -33,14 +33,22 @@ export const LanguageWrapper = ({
   }, [lng, i18n]);
 
   React.useEffect(() => {
-    const matchedLanguage = languageLabels?.find((lang) =>
+    const currentLanguage = i18n.language;
+    const matchedLanguage = languageLabels.find((lang) =>
       pathname.startsWith(`/${lang}`)
     );
-    const path = pathname.split(`${matchedLanguage}`)[1];
-    if (!matchedLanguage && !path) return;
-    let newPath = `/${i18n.language}${path}`;
-    navigate(newPath, { replace: true });
-  }, [i18n.language, pathname]);
+
+    if (!matchedLanguage) {
+      const newPath = `/${currentLanguage}${pathname}`;
+      navigate(newPath, { replace: true });
+    } else if (matchedLanguage !== currentLanguage) {
+      const newPath = pathname.replace(
+        `/${matchedLanguage}`,
+        `/${currentLanguage}`
+      );
+      navigate(newPath, { replace: true });
+    }
+  }, [i18n.language, pathname, navigate]);
 
   return <>{children}</>;
 };
