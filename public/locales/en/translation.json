@@ -136,5 +136,24 @@
     "featureText1": "Delivery within 30 minutes",
     "featureText2": "Best Offer & Prices",
     "featureText3": "Online Services Available"
+  },
+  "ourServices": {
+    "heading": "We also offer unique services for your events",
+    "catering": {
+      "title": "Catering",
+      "description": "Delicious, customized menus crafted with fresh ingredients for any occasion."
+    },
+    "birthdays": {
+      "title": "Birthdays",
+      "description": "Exciting themed parties with fun activities, décor, and custom treats."
+    },
+    "weddings": {
+      "title": "Weddings",
+      "description": "Comprehensive wedding planning to make your special day unforgettable."
+    },
+    "events": {
+      "title": "Events",
+      "description": "Professional event management for corporate, social, and casual gatherings."
+    }
   }
 }
