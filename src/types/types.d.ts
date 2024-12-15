@@ -22,3 +22,15 @@ interface Features {
   title: string;
   description: string;
 }
+
+interface MenuItem {
+  key: string;
+  type: "breakfast" | "lunchOrDinner" | "drinks" | "dessert" | "starters";
+  price: number;
+  image: string;
+}
+
+interface MenuItemLocalization {
+  title: string;
+  description: string;
+}
