@@ -154,5 +154,117 @@
       "title": "Eventos",
       "description": "Gestión profesional de eventos para reuniones corporativas, sociales y casuales."
     }
+  },
+  "menuItems": {
+    "mainHeading": "Nuestro Menú",
+    "mainDescription": "Explora una variedad de platos deliciosos diseñados para satisfacer todos los gustos.",
+    "types": {
+      "all": "todo",
+      "breakfast": "desayuno",
+      "lunchOrDinner": "almuerzo / cena",
+      "drinks": "bebidas",
+      "dessert": "postre",
+      "starters": "entrantes"
+    },
+    "friedEggs": {
+      "title": "Huevos fritos",
+      "description": "Una opción clásica de desayuno con huevos fritos servidos con una tostada crujiente."
+    },
+    "hawaiianPizza": {
+      "title": "Pizza hawaiana",
+      "description": "Una deliciosa pizza cubierta con jamón sabroso, piña dulce y una mezcla de queso derretido."
+    },
+    "martinezCocktail": {
+      "title": "Cóctel Martínez",
+      "description": "Un cóctel clásico hecho con ginebra, vermut dulce y un toque de licor de maraschino."
+    },
+    "butterscotchCake": {
+      "title": "Pastel de butterscotch",
+      "description": "Un pastel rico y esponjoso con sabor a jarabe de butterscotch y cubierto con un glaseado cremoso."
+    },
+    "mintLemonade": {
+      "title": "Limonada de menta",
+      "description": "Una bebida refrescante hecha con menta fresca, jugo de limón y un toque de dulzura."
+    },
+    "chocolateIcecream": {
+      "title": "Helado de chocolate",
+      "description": "Un postre cremoso y decadente hecho con rico chocolate y una textura suave."
+    },
+    "cheeseBurger": {
+      "title": "Hamburguesa con queso",
+      "description": "Una jugosa hamburguesa de carne con queso derretido, lechuga crujiente, tomate y pepinillos."
+    },
+    "classicWaffles": {
+      "title": "Waffles clásicos",
+      "description": "Waffles ligeros y crujientes, servidos con jarabe y mantequilla, perfectos para el desayuno."
+    },
+    "slicedTomatoesAndAvocados": {
+      "title": "Tomates y aguacates en rodajas",
+      "description": "Rodajas frescas y saludables de tomate y aguacate cremoso, perfectas como entrada."
+    },
+    "chocolateCake": {
+      "title": "Pastel de chocolate",
+      "description": "Un pastel decadente de chocolate, con capas ricas y glaseado suave."
+    },
+    "grilledFish": {
+      "title": "Pescado a la parrilla",
+      "description": "Pescado fresco a la parrilla a la perfección, servido con el acompañante de tu elección."
+    },
+    "chickenRoast": {
+      "title": "Pollo asado",
+      "description": "Un sabroso pollo asado, cocido hasta quedar dorado y jugoso."
+    },
+    "stirFryNoodles": {
+      "title": "Fideos salteados",
+      "description": "Un sabroso salteado de fideos, vegetales y tu elección de carne o tofu."
+    },
+    "brownSoup": {
+      "title": "Sopa marrón",
+      "description": "Una sopa reconfortante y sabrosa, perfecta para un almuerzo o cena cálidos."
+    },
+    "dessert": {
+      "title": "Postre",
+      "description": "Un postre lujoso con capas cremosas y bañado en jarabe."
+    },
+    "pastryAndBoiledEggs": {
+      "title": "Pasteles y huevos duros",
+      "description": "Pasteles hojaldrados servidos junto con huevos duros perfectamente cocidos para un desayuno satisfactorio."
+    },
+    "breadCornGrapes": {
+      "title": "Pan, maíz y uvas",
+      "description": "Una mezcla deliciosa de pan, maíz dulce y uvas, servida como un desayuno ligero."
+    },
+    "drizzledSyrupOnACreamyDessert": {
+      "title": "Postre cremoso con jarabe",
+      "description": "Un delicioso postre con una base cremosa, cubierto con un rico jarabe."
+    },
+    "riceWithZucchini": {
+      "title": "Arroz con calabacín",
+      "description": "Arroz esponjoso servido con calabacín salteado, perfecto como acompañante o comida ligera."
+    },
+    "coffeeAndCroissant": {
+      "title": "Café y croissant",
+      "description": "Una combinación clásica de desayuno con café recién hecho acompañado de un croissant mantecoso."
+    },
+    "grilledRibs": {
+      "title": "Costillas a la parrilla",
+      "description": "Costillas tiernas y ahumadas a la parrilla a la perfección, servidas con salsa barbacoa."
+    },
+    "berryCreamDessert": {
+      "title": "Postre de crema con bayas",
+      "description": "Un delicioso postre cubierto con bayas frescas y crema batida."
+    },
+    "taco": {
+      "title": "Taco",
+      "description": "Un delicioso taco relleno de carne sazonada, lechuga, queso y salsa."
+    },
+    "brownie": {
+      "title": "Brownie",
+      "description": "Un rico y jugoso brownie de chocolate, perfecto para los amantes del chocolate."
+    },
+    "darkChocolateBrownie": {
+      "title": "Brownie de chocolate oscuro",
+      "description": "Un brownie decadente de chocolate oscuro, con un sabor rico e intenso."
+    }
   }
 }

@@ -155,5 +155,117 @@
       "title": "Events",
       "description": "Professional event management for corporate, social, and casual gatherings."
     }
+  },
+  "menuItems": {
+    "mainHeading": "Our Menu",
+    "mainDescription": "Explore a variety of delicious dishes crafted to satisfy every taste.",
+    "types": {
+      "all": "all",
+      "breakfast": "breakfast",
+      "lunchOrDinner": "lunch / dinner",
+      "drinks": "drinks",
+      "dessert": "dessert",
+      "starters": "starters"
+    },
+    "friedEggs": {
+      "title": "fried Eggs",
+      "description": "A classic breakfast choice of sunny side up eggs served with a side of crispy toast."
+    },
+    "hawaiianPizza": {
+      "title": "hawaiian Pizza",
+      "description": "A delicious pizza topped with savory ham, sweet pineapple, and a blend of melted cheese."
+    },
+    "martinezCocktail": {
+      "title": "martinez Cocktail",
+      "description": "A classic cocktail made with gin, sweet vermouth, and a dash of maraschino liqueur."
+    },
+    "butterscotchCake": {
+      "title": "butterscotch Cake",
+      "description": "A rich and moist cake flavored with sweet butterscotch syrup and topped with creamy frosting."
+    },
+    "mintLemonade": {
+      "title": "mint Lemonade",
+      "description": "A refreshing drink made with fresh mint, lemon juice, and a touch of sweetness."
+    },
+    "chocolateIcecream": {
+      "title": "chocolate Icecream",
+      "description": "A creamy, decadent dessert made with rich chocolate and a smooth texture."
+    },
+    "cheeseBurger": {
+      "title": "cheese Burger",
+      "description": "A juicy beef patty topped with melted cheese, crisp lettuce, tomato, and pickles."
+    },
+    "classicWaffles": {
+      "title": "classic Waffles",
+      "description": "Light and crispy waffles, served with syrup and butter, perfect for breakfast."
+    },
+    "slicedTomatoesAndAvocados": {
+      "title": "sliced Tomatoes And Avocados",
+      "description": "Fresh and healthy slices of tomatoes and creamy avocado, perfect as a starter."
+    },
+    "chocolateCake": {
+      "title": "chocolate Cake",
+      "description": "A decadent chocolate cake layered with rich, velvety frosting."
+    },
+    "grilledFish": {
+      "title": "grilled Fish",
+      "description": "Fresh fish grilled to perfection, served with your choice of sides."
+    },
+    "chickenRoast": {
+      "title": "chicken Roast",
+      "description": "A savory roasted chicken dish, cooked until golden and juicy."
+    },
+    "stirFryNoodles": {
+      "title": "stir Fry Noodles",
+      "description": "A tasty stir-fry of noodles, vegetables, and your choice of meat or tofu."
+    },
+    "brownSoup": {
+      "title": "brown Soup",
+      "description": "A hearty and flavorful brown soup, perfect for a warm lunch or dinner."
+    },
+    "dessert": {
+      "title": "dessert",
+      "description": "A luxurious dessert filled with creamy layers and drizzled with syrup."
+    },
+    "pastryAndBoiledEggs": {
+      "title": "pastry And Boiled Eggs",
+      "description": "Flaky pastries served alongside perfectly boiled eggs for a satisfying breakfast."
+    },
+    "breadCornGrapes": {
+      "title": "bread Corn Grapes",
+      "description": "A delightful mix of bread, sweet corn, and grapes, served as a light breakfast."
+    },
+    "drizzledSyrupOnACreamyDessert": {
+      "title": "drizzled Syrup On A Creamy Dessert",
+      "description": "A delicious dessert with a creamy base, topped with a rich drizzle of syrup."
+    },
+    "riceWithZucchini": {
+      "title": "rice With Zucchini",
+      "description": "Fluffy rice served with sautéed zucchini, perfect as a side dish or light meal."
+    },
+    "coffeeAndCroissant": {
+      "title": "coffee And Croissant",
+      "description": "A classic breakfast combo of freshly brewed coffee paired with a buttery croissant."
+    },
+    "grilledRibs": {
+      "title": "grilled Ribs",
+      "description": "Tender, smoky ribs grilled to perfection, served with a side of barbecue sauce."
+    },
+    "berryCreamDessert": {
+      "title": "berry Cream Dessert",
+      "description": "A delicious dessert topped with fresh berries and creamy whipped cream."
+    },
+    "taco": {
+      "title": "taco",
+      "description": "A tasty taco filled with seasoned meat, lettuce, cheese, and salsa."
+    },
+    "brownie": {
+      "title": "brownie",
+      "description": "A rich and fudgy chocolate brownie, perfect for any chocolate lover."
+    },
+    "darkChocolateBrownie": {
+      "title": "dark Chocolate Brownie",
+      "description": "A decadent dark chocolate brownie, offering a rich and intense flavor."
+    }
   }
 }

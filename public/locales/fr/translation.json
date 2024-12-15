@@ -155,5 +155,117 @@
       "title": "Événements",
       "description": "Gestion professionnelle d'événements pour les rassemblements d'affaires, sociaux et décontractés."
     }
+  },
+  "menuItems": {
+    "mainHeading": "Notre Menu",
+    "mainDescription": "Explorez une variété de plats délicieux conçus pour satisfaire tous les goûts.",
+    "types": {
+      "all": "tout",
+      "breakfast": "petit-déjeuner",
+      "lunchOrDinner": "déjeuner / dîner",
+      "drinks": "boissons",
+      "dessert": "dessert",
+      "starters": "entrées"
+    },
+    "friedEggs": {
+      "title": "Œufs frits",
+      "description": "Un plat classique de petit déjeuner avec des œufs frits servis avec du pain grillé croquant."
+    },
+    "hawaiianPizza": {
+      "title": "Pizza hawaïenne",
+      "description": "Une délicieuse pizza garnie de jambon savoureux, d'ananas sucré et d'un mélange de fromage fondant."
+    },
+    "martinezCocktail": {
+      "title": "Cocktail Martínez",
+      "description": "Un cocktail classique à base de gin, de vermouth doux et d'une touche de liqueur de marasquin."
+    },
+    "butterscotchCake": {
+      "title": "Gâteau au butterscotch",
+      "description": "Un gâteau riche et moelleux au goût de sirop de butterscotch, garni d'un glaçage crémeux."
+    },
+    "mintLemonade": {
+      "title": "Limonade à la menthe",
+      "description": "Une boisson rafraîchissante à base de menthe fraîche, de jus de citron et d'une touche de douceur."
+    },
+    "chocolateIcecream": {
+      "title": "Crème glacée au chocolat",
+      "description": "Un dessert crémeux et décadent à base de chocolat riche et d'une texture douce."
+    },
+    "cheeseBurger": {
+      "title": "Burger au fromage",
+      "description": "Un burger juteux avec du fromage fondu, de la laitue croquante, des tomates et des cornichons."
+    },
+    "classicWaffles": {
+      "title": "Gaufres classiques",
+      "description": "Des gaufres légères et croquantes, servies avec du sirop et du beurre, parfaites pour le petit déjeuner."
+    },
+    "slicedTomatoesAndAvocados": {
+      "title": "Tomates et avocats en tranches",
+      "description": "Des tranches fraîches et saines de tomates et d'avocats crémeux, parfaites en entrée."
+    },
+    "chocolateCake": {
+      "title": "Gâteau au chocolat",
+      "description": "Un gâteau décadent au chocolat, avec des couches riches et un glaçage doux."
+    },
+    "grilledFish": {
+      "title": "Poisson grillé",
+      "description": "Du poisson frais grillé à la perfection, servi avec l'accompagnement de votre choix."
+    },
+    "chickenRoast": {
+      "title": "Poulet rôti",
+      "description": "Un poulet rôti savoureux, cuit à la perfection et doré."
+    },
+    "stirFryNoodles": {
+      "title": "Nouilles sautées",
+      "description": "Des nouilles savoureuses sautées avec des légumes et votre choix de viande ou de tofu."
+    },
+    "brownSoup": {
+      "title": "Soupe brune",
+      "description": "Une soupe réconfortante et savoureuse, parfaite pour un déjeuner ou un dîner chaud."
+    },
+    "dessert": {
+      "title": "Dessert",
+      "description": "Un dessert luxueux avec des couches crémeuses, nappé de sirop."
+    },
+    "pastryAndBoiledEggs": {
+      "title": "Pâtisseries et œufs durs",
+      "description": "Des pâtisseries feuilletées servies avec des œufs durs parfaitement cuits pour un petit déjeuner copieux."
+    },
+    "breadCornGrapes": {
+      "title": "Pain, maïs et raisins",
+      "description": "Un délicieux mélange de pain, de maïs sucré et de raisins, servi en petit déjeuner léger."
+    },
+    "drizzledSyrupOnACreamyDessert": {
+      "title": "Dessert crémeux avec du sirop",
+      "description": "Un délicieux dessert à base de crème, recouvert de sirop riche."
+    },
+    "riceWithZucchini": {
+      "title": "Riz aux courgettes",
+      "description": "Du riz moelleux servi avec des courgettes sautées, parfait comme accompagnement ou plat léger."
+    },
+    "coffeeAndCroissant": {
+      "title": "Café et croissant",
+      "description": "Une combinaison classique de petit déjeuner avec un café fraîchement préparé accompagné d'un croissant beurré."
+    },
+    "grilledRibs": {
+      "title": "Côtes grillées",
+      "description": "Des côtes tendres et fumées grillées à la perfection, servies avec une sauce barbecue."
+    },
+    "berryCreamDessert": {
+      "title": "Dessert à la crème et aux baies",
+      "description": "Un délicieux dessert garni de baies fraîches et de crème fouettée."
+    },
+    "taco": {
+      "title": "Taco",
+      "description": "Un délicieux taco garni de viande épicée, de laitue, de fromage et de sauce."
+    },
+    "brownie": {
+      "title": "Brownie",
+      "description": "Un brownie riche et moelleux au chocolat, parfait pour les amateurs de chocolat."
+    },
+    "darkChocolateBrownie": {
+      "title": "Brownie au chocolat noir",
+      "description": "Un brownie décadent au chocolat noir, avec un goût riche et intense."
+    }
   }
 }

@@ -14,6 +14,7 @@ function App() {
     <>
       <Header />
       <Routes>
+        <Route path="/" element={<LanguageWrapper />} />
         {routes.map((item, index) => {
           return (
             <Fragment key={index}>
