@@ -6,7 +6,7 @@ import { getTranslationLocales } from "../lib/getTranslationLocales";
 export const LanguageWrapper = ({
   children,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }) => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
