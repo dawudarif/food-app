@@ -2,6 +2,7 @@ import clsx from "clsx";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { menuItems } from "../../data/menuItems";
+import { transformNumericals } from "../../utils/transformNumericals";
 import styles from "./Menu.module.scss";
 
 export default function Menu() {
@@ -52,7 +53,7 @@ export default function Menu() {
             <div key={i} className={styles.item}>
               <img src={item.image} alt={menuItem.title} />
               <div>
-                <span>${item.price}</span>
+                <span>${transformNumericals(item.price)}</span>
                 <h1>{menuItem.title}</h1>
                 <p>{menuItem.description}</p>
               </div>
