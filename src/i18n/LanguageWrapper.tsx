@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
-import { getTranslationLocales } from "../lib/getTranslationLocales";
+import { getTranslationLocales } from "../utils/getTranslationLocales";
 
 export const LanguageWrapper = ({
   children,

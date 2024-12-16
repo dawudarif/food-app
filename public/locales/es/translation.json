@@ -3,7 +3,6 @@
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "menu": "Menú",
-    "pages": "Páginas",
     "contact": "Contáctanos",
     "bookTableBtn": "Reservar una mesa"
   },
@@ -265,6 +264,16 @@
     "darkChocolateBrownie": {
       "title": "Brownie de chocolate oscuro",
       "description": "Un brownie decadente de chocolate oscuro, con un sabor rico e intenso."
+    }
+  },
+  "imageWithTextAndDescription": {
+    "contactInfoHeading": "Ven y visítanos",
+    "heading": "Ofrecemos comida saludable para tu familia.",
+    "boldDescription": "Nuestra historia comenzó con una visión de crear una experiencia culinaria única que combine alta cocina, servicio excepcional y un ambiente vibrante. Arraigados en la rica cultura culinaria de la ciudad, buscamos honrar nuestras raíces locales mientras integramos un paladar global.",
+    "description": "En place, creemos que comer no se trata solo de comida, sino también de toda la experiencia. Nuestro personal, conocido por su calidez y dedicación, se esfuerza por hacer que cada visita sea un evento inolvidable.",
+    "button": "Más sobre nosotros",
+    "contactInfo": {
+      "location": "837 W. Marshall Lane, Marshalltown, IA 50158, Los Ángeles"
     }
   }
 }

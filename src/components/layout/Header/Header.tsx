@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
-import { getTranslationLocales } from "../../../lib/getTranslationLocales";
+import { getTranslationLocales } from "../../../utils/getTranslationLocales";
 import styles from "./Header.module.scss";
 
 export default function Header() {

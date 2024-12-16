@@ -1,14 +1,16 @@
 import { t } from "i18next";
 
-export const transformNumericals = (num: number) => {
+export const transformNumericals = (num: number | string) => {
   let number = "";
 
-  num
-    .toString()
-    .split("")
-    .forEach((n) => {
-      number += t(`numerals.${n}`);
+  let numberString = typeof num === "number" ? num.toString() : num;
+
+  numberString.split("").forEach((n) => {
+    const translation = t(`numerals.${n}`, {
+      defaultValue: n,
     });
+    number += translation;
+  });
 
   return number;
 };
