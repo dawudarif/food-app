@@ -279,5 +279,17 @@
       "title": "dark Chocolate Brownie",
       "description": "A decadent dark chocolate brownie, offering a rich and intense flavor."
     }
+  },
+  "imageWithTextAndDescription": {
+    "contactInfoHeading": "Come and Visit Us",
+    "heading": "We provide healthy food for your family.",
+    "boldDescription": "Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in the city's rich culinary culture, we aim to honor our local roots while infusing a global palate.",
+    "description": "At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.",
+    "button": "More About Us",
+    "contactInfo": {
+      "phone": "(414)-857-0107",
+      "email": "contact@bistrobliss.com",
+      "location": "837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles"
+    }
   }
 }
