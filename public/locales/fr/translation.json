@@ -116,7 +116,6 @@
       "location": "Atlanta, GA"
     }
   ],
-  "contactUsHeading": "Contactez-nous",
   "overlayHeading": "Sentez le goût authentique et original chez nous",
   "overlayFeatures": [
     {
@@ -307,5 +306,28 @@
     "followUs": "Suivez-nous sur Instagram",
     "copyright": "Copyright ©",
     "copyrightContent": "Dawood Arif. Tous droits réservés"
+  },
+  "contactUs": {
+    "heading": "Contactez-nous",
+    "description": "Contactez-nous pour toute demande, réservation ou retour. Nous sommes là pour vous aider et garantir une expérience fluide chez Bistro Bliss.",
+    "info": {
+      "call": "Appelez-nous :",
+      "hours": {
+        "title": "Horaires :",
+        "desc": "Lun-Ven : 11h - 20h",
+        "desc2": "Sam-Dim : 9h - 22h"
+      },
+      "location": {
+        "title": "Notre emplacement :",
+        "desc": "123 Bridge Street, Nowhere Land, LA 12345, États-Unis"
+      }
+    },
+    "inputs": {
+      "name": { "name": "Nom", "placeholder": "Entrez votre nom" },
+      "email": { "name": "Email", "placeholder": "Entrez l'adresse e-mail" },
+      "subject": { "name": "Sujet", "placeholder": "Écrivez un sujet" },
+      "message": { "name": "Message", "placeholder": "Écrivez votre message" },
+      "send": "Envoyer"
+    }
   }
 }
