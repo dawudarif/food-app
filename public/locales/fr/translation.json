@@ -1,4 +1,7 @@
 {
+  "global": {
+    "select": "Sélectionner"
+  },
   "routes": {
     "home": "Accueil",
     "about": "À Propos",
@@ -113,7 +116,6 @@
       "location": "Atlanta, GA"
     }
   ],
-  "contactUsHeading": "Contactez-nous",
   "overlayHeading": "Sentez le goût authentique et original chez nous",
   "overlayFeatures": [
     {
@@ -273,5 +275,59 @@
     "boldDescription": "Notre histoire a commencé avec une vision : créer une expérience culinaire unique qui allie gastronomie, service exceptionnel et ambiance vibrante. Ancrés dans la riche culture culinaire de la ville, nous visons à honorer nos racines locales tout en insufflant un goût global.",
     "description": "Chez place, nous croyons que dîner ne se limite pas à la nourriture, mais concerne aussi l'expérience globale. Notre personnel, connu pour sa chaleur et son dévouement, s'efforce de rendre chaque visite inoubliable.",
     "button": "En savoir plus sur nous"
+  },
+  "aboutPage": {
+    "heading": "Réserver une Table",
+    "description": "Nous prenons en compte tous les facteurs de changement et vous fournissons les éléments nécessaires pour créer un véritable changement.",
+    "inputs": {
+      "name": {
+        "name": "Nom",
+        "placeholder": "Nom"
+      },
+      "date": {
+        "name": "Date",
+        "placeholder": "jj/mm/aa"
+      },
+      "time": {
+        "name": "Heure"
+      },
+      "phone": {
+        "name": "Téléphone",
+        "placeholder": "Téléphone"
+      },
+      "numberOfPeople": {
+        "name": "Nombre de Personnes"
+      }
+    }
+  },
+  "footer": {
+    "description": "Bienvenue chez Bistro Bliss – où saveurs et ambiance se rencontrent ! Découvrez notre menu soigneusement élaboré avec des ingrédients frais et locaux, ainsi que des recettes intemporelles. Que ce soit pour un dîner romantique, une réunion familiale ou une collation rapide, nous vous promettons une expérience culinaire inoubliable. Réservez votre table dès aujourd'hui et savourez la perfection !",
+    "pages": "Pages",
+    "followUs": "Suivez-nous sur Instagram",
+    "copyright": "Copyright ©",
+    "copyrightContent": "Dawood Arif. Tous droits réservés"
+  },
+  "contactUs": {
+    "heading": "Contactez-nous",
+    "description": "Contactez-nous pour toute demande, réservation ou retour. Nous sommes là pour vous aider et garantir une expérience fluide chez Bistro Bliss.",
+    "info": {
+      "call": "Appelez-nous :",
+      "hours": {
+        "title": "Horaires :",
+        "desc": "Lun-Ven : 11h - 20h",
+        "desc2": "Sam-Dim : 9h - 22h"
+      },
+      "location": {
+        "title": "Notre emplacement :",
+        "desc": "123 Bridge Street, Nowhere Land, LA 12345, États-Unis"
+      }
+    },
+    "inputs": {
+      "name": { "name": "Nom", "placeholder": "Entrez votre nom" },
+      "email": { "name": "Email", "placeholder": "Entrez l'adresse e-mail" },
+      "subject": { "name": "Sujet", "placeholder": "Écrivez un sujet" },
+      "message": { "name": "Message", "placeholder": "Écrivez votre message" },
+      "send": "Envoyer"
+    }
   }
 }

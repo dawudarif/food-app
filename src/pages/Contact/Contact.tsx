@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { transformNumericals } from "../../utils/transformNumericals";
 import styles from "./Contact.module.scss";
 
 export default function Contact() {
@@ -7,59 +8,65 @@ export default function Contact() {
   return (
     <div className={styles.contact}>
       <div className={styles.containerOne}>
-        <h1>{t("contactUsHeading")}</h1>
-        <p>
-          We consider all the drivers of change gives you the components you
-          need to change to create a truly happens.
-        </p>
+        <h1>{t("contactUs.heading")}</h1>
+        <p>{t("contactUs.description")}</p>
         <form>
           <div>
             <label htmlFor="name">
-              <p>Name</p>
-              <input type="text" name="name" placeholder="Enter your name" />
+              <p>{t("contactUs.inputs.name.name")}</p>
+              <input
+                type="text"
+                name="name"
+                placeholder={t("contactUs.inputs.name.placeholder")}
+              />
             </label>
             <label htmlFor="email">
-              <p>Email</p>
+              <p>{t("contactUs.inputs.email.name")}</p>
               <input
                 type="email"
                 name="email"
-                placeholder="Enter email address"
+                placeholder={t("contactUs.inputs.email.placeholder")}
               />
             </label>
           </div>
           <label htmlFor="subject">
-            <p>Subject</p>
-            <input type="text" name="subject" placeholder="Write a subject" />
+            <p>{t("contactUs.inputs.subject.name")}</p>
+            <input
+              type="text"
+              name="subject"
+              placeholder={t("contactUs.inputs.subject.placeholder")}
+            />
           </label>
           <label htmlFor="message">
-            <p>Message</p>
+            <p>{t("contactUs.inputs.message.name")}</p>
             <textarea
               rows={10}
               name="message"
-              placeholder="Write your message"
+              placeholder={t("contactUs.inputs.message.placeholder")}
             />
           </label>
-          <button>Send</button>
+          <button>{t("contactUs.inputs.send")}</button>
         </form>
       </div>
 
       <div className={styles.containerTwo}>
         <div className={styles.contactContainer}>
           <div>
-            <h1>Call Us:</h1>
-            <a href="tel:12345678900">+1-234-567-8900</a>
+            <h1>{t("contactUs.info.call")}</h1>
+            <a href="tel:12345678900">
+              {transformNumericals("+1 - 234 - 567 - 8900")}
+            </a>
           </div>
           <div>
-            <h1>Hours:</h1>
-
+            <h1>{t("contactUs.info.hours.title")}</h1>
             <span>
-              <p>Mon-Fri: 11am - 8pm </p>
-              <p>Sat, Sun: 9am - 10pm</p>
+              <p>{t("contactUs.info.hours.desc")}</p>
+              <p>{t("contactUs.info.hours.desc2")}</p>
             </span>
           </div>
           <div>
-            <h1>Our Location:</h1>
-            <p>123 Bridge Street Nowhere Land, LA 12345 United States</p>
+            <h1>{t("contactUs.info.location.title")}</h1>
+            <p>{t("contactUs.info.location.desc")}</p>
           </div>
         </div>
       </div>

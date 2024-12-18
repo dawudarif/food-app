@@ -1,14 +1,18 @@
 import React, { forwardRef } from "react";
+import { useTranslation } from "react-i18next";
 import Select, { StylesConfig } from "react-select";
 
 interface SingleSelectProps {
   options: { label: string; value: string }[];
   value: { label: string; value: string };
   onChange: (value: { label: string; value: string } | null) => void;
+  placeholder?: string;
 }
 
 const SingleSelect = forwardRef<any, SingleSelectProps>(
-  ({ options, value, onChange }, ref) => {
+  ({ options, value, onChange, placeholder }, ref) => {
+    const { t } = useTranslation();
+
     const customSelectStyles: StylesConfig<any, false> = {
       valueContainer: (provided) => ({
         ...provided,
@@ -72,6 +76,7 @@ const SingleSelect = forwardRef<any, SingleSelectProps>(
         ref={ref}
         options={options}
         value={value}
+        placeholder={placeholder ?? t("global.select")}
         onChange={onChange}
         styles={customSelectStyles}
       />

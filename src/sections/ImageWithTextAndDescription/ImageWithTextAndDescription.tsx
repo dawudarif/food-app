@@ -4,6 +4,7 @@ import phoneIcon from "../../assets/phone.svg";
 import mailIcon from "../../assets/mail.svg";
 import { transformNumericals } from "../../utils/transformNumericals";
 import { useTranslation } from "react-i18next";
+import clsx from "clsx";
 
 export default function ImageWithTextAndDescription({
   imageUrl,
@@ -12,7 +13,7 @@ export default function ImageWithTextAndDescription({
   imageUrl: string;
   showButton?: boolean;
 }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const data = [
     {
@@ -30,6 +31,10 @@ export default function ImageWithTextAndDescription({
       content: t("imageWithTextAndDescription.contactInfo.location"),
     },
   ];
+
+  const textAlignment = clsx(
+    (i18n.language === "ur" || i18n.language === "ar") && "text-right"
+  );
 
   return (
     <section
@@ -56,7 +61,7 @@ export default function ImageWithTextAndDescription({
               </div>
             </div>
           </div>
-          <div className={styles.contentContainer}>
+          <div className={clsx(textAlignment, styles.contentContainer)}>
             <h1>{t("imageWithTextAndDescription.heading")}</h1>
             <div>
               <strong>

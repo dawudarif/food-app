@@ -1,4 +1,7 @@
 {
+  "global": {
+    "select": "Seleccionar"
+  },
   "routes": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
@@ -113,7 +116,6 @@
       "location": "Atlanta, GA"
     }
   ],
-  "contactUsHeading": "Contáctanos",
   "overlayHeading": "Siente el sabor auténtico y original con nosotros",
   "overlayFeatures": [
     {
@@ -274,6 +276,63 @@
     "button": "Más sobre nosotros",
     "contactInfo": {
       "location": "837 W. Marshall Lane, Marshalltown, IA 50158, Los Ángeles"
+    }
+  },
+  "aboutPage": {
+    "heading": "Reservar una Mesa",
+    "description": "Consideramos todos los factores de cambio y te damos los componentes necesarios para crear un cambio real.",
+    "inputs": {
+      "name": {
+        "name": "Nombre",
+        "placeholder": "Nombre"
+      },
+      "date": {
+        "name": "Fecha",
+        "placeholder": "dd/mm/aa"
+      },
+      "time": {
+        "name": "Hora"
+      },
+      "phone": {
+        "name": "Teléfono",
+        "placeholder": "Teléfono"
+      },
+      "numberOfPeople": {
+        "name": "Número de Personas"
+      }
+    }
+  },
+  "footer": {
+    "description": "¡Bienvenidos a Bistro Bliss – donde el sabor se encuentra con la atmósfera! Disfruta de nuestro menú cuidadosamente elaborado, con ingredientes frescos, locales y recetas atemporales. Ya sea para una cena romántica, una reunión familiar o un bocado rápido, prometemos una experiencia gastronómica inolvidable. ¡Reserva tu mesa hoy y saborea la perfección!",
+    "pages": "Páginas",
+    "followUs": "Síguenos en Instagram",
+    "copyright": "Derechos de autor ©",
+    "copyrightContent": "Dawood Arif. Todos los derechos reservados"
+  },
+  "contactUs": {
+    "heading": "Contáctanos",
+    "description": "Ponte en contacto con nosotros para cualquier consulta, reserva o comentario. Estamos aquí para ayudarte y garantizar una experiencia fluida en Bistro Bliss.",
+    "info": {
+      "call": "Llámanos:",
+      "hours": {
+        "title": "Horarios:",
+        "desc": "Lun-Vie: 11am - 8pm",
+        "desc2": "Sáb-Dom: 9am - 10pm"
+      },
+      "location": {
+        "title": "Nuestra ubicación:",
+        "desc": "123 Bridge Street, Nowhere Land, LA 12345, Estados Unidos"
+      }
+    },
+    "inputs": {
+      "name": { "name": "Nombre", "placeholder": "Ingresa tu nombre" },
+      "email": {
+        "name": "Correo electrónico",
+        "placeholder": "Ingresa la dirección de correo electrónico"
+      },
+      "subject": { "name": "Asunto", "placeholder": "Escribe un asunto" },
+      "message": { "name": "Mensaje", "placeholder": "Escribe tu mensaje" },
+      "send": "Enviar"
     }
   }
 }

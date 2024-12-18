@@ -12,7 +12,7 @@ i18n
   .use(Backend)
   .init({
     supportedLngs: [...labels],
-    debug: true,
+    debug: process.env.NODE_ENV !== "production",
     fallbackLng: "en",
     returnObjects: true,
     detection: {
