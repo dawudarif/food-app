@@ -33,23 +33,13 @@ export default function BookTable() {
               <p className={styles.inputLabel}>
                 {t("aboutPage.inputs.date.name")}
               </p>
-              <input
-                name="date"
-                className={styles.inputAria}
-                placeholder={t("aboutPage.inputs.date.placeholder")}
-                type="date"
-              />
+              <input name="date" className={styles.inputAria} type="date" />
             </label>
             <label htmlFor="time" className={styles.input}>
               <p className={styles.inputLabel}>
                 {t("aboutPage.inputs.time.name")}
               </p>
-              <input
-                name="time"
-                className={styles.inputAria}
-                placeholder={transformNumericals("14:00")}
-                type="time"
-              />
+              <input name="time" className={styles.inputAria} type="time" />
             </label>
           </div>
           <div className={styles.rowInputs}>

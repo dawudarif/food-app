@@ -285,8 +285,7 @@
         "placeholder": "Nom"
       },
       "date": {
-        "name": "Date",
-        "placeholder": "jj/mm/aa"
+        "name": "Date"
       },
       "time": {
         "name": "Heure"

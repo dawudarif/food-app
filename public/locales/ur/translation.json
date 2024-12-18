@@ -301,8 +301,7 @@
         "placeholder": "نام"
       },
       "date": {
-        "name": "تاریخ",
-        "placeholder": "دن/مہینہ/سال"
+        "name": "تاریخ"
       },
       "time": {
         "name": "وقت"
