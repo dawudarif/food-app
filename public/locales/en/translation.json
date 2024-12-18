@@ -1,4 +1,7 @@
 {
+  "global": {
+    "select": "Select"
+  },
   "numerals": {
     "0": "0",
     "1": "1",
@@ -290,6 +293,30 @@
       "phone": "(414)-857-0107",
       "email": "contact@bistrobliss.com",
       "location": "837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles"
+    }
+  },
+  "aboutPage": {
+    "heading": "Book A Table",
+    "description": " We consider all the drivers of change gives you the components you need to change to create a truly happens.",
+    "inputs": {
+      "name": {
+        "name": "Name",
+        "placeholder": "Name"
+      },
+      "date": {
+        "name": "Date",
+        "placeholder": "dd/mm/yy"
+      },
+      "time": {
+        "name": "Time"
+      },
+      "phone": {
+        "name": "Phone",
+        "placeholder": "Phone"
+      },
+      "numberOfPeople": {
+        "name": "number Of People"
+      }
     }
   }
 }

@@ -1,4 +1,7 @@
 {
+  "global": {
+    "select": "Sélectionner"
+  },
   "routes": {
     "home": "Accueil",
     "about": "À Propos",
@@ -273,5 +276,29 @@
     "boldDescription": "Notre histoire a commencé avec une vision : créer une expérience culinaire unique qui allie gastronomie, service exceptionnel et ambiance vibrante. Ancrés dans la riche culture culinaire de la ville, nous visons à honorer nos racines locales tout en insufflant un goût global.",
     "description": "Chez place, nous croyons que dîner ne se limite pas à la nourriture, mais concerne aussi l'expérience globale. Notre personnel, connu pour sa chaleur et son dévouement, s'efforce de rendre chaque visite inoubliable.",
     "button": "En savoir plus sur nous"
+  },
+  "aboutPage": {
+    "heading": "Réserver une Table",
+    "description": "Nous prenons en compte tous les facteurs de changement et vous fournissons les éléments nécessaires pour créer un véritable changement.",
+    "inputs": {
+      "name": {
+        "name": "Nom",
+        "placeholder": "Nom"
+      },
+      "date": {
+        "name": "Date",
+        "placeholder": "jj/mm/aa"
+      },
+      "time": {
+        "name": "Heure"
+      },
+      "phone": {
+        "name": "Téléphone",
+        "placeholder": "Téléphone"
+      },
+      "numberOfPeople": {
+        "name": "Nombre de Personnes"
+      }
+    }
   }
 }

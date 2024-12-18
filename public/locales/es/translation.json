@@ -1,4 +1,7 @@
 {
+  "global": {
+    "select": "Seleccionar"
+  },
   "routes": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
@@ -274,6 +277,30 @@
     "button": "Más sobre nosotros",
     "contactInfo": {
       "location": "837 W. Marshall Lane, Marshalltown, IA 50158, Los Ángeles"
+    }
+  },
+  "aboutPage": {
+    "heading": "Reservar una Mesa",
+    "description": "Consideramos todos los factores de cambio y te damos los componentes necesarios para crear un cambio real.",
+    "inputs": {
+      "name": {
+        "name": "Nombre",
+        "placeholder": "Nombre"
+      },
+      "date": {
+        "name": "Fecha",
+        "placeholder": "dd/mm/aa"
+      },
+      "time": {
+        "name": "Hora"
+      },
+      "phone": {
+        "name": "Teléfono",
+        "placeholder": "Teléfono"
+      },
+      "numberOfPeople": {
+        "name": "Número de Personas"
+      }
     }
   }
 }
