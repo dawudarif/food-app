@@ -302,5 +302,12 @@
         "name": "Número de Personas"
       }
     }
+  },
+  "footer": {
+    "description": "¡Bienvenidos a Bistro Bliss – donde el sabor se encuentra con la atmósfera! Disfruta de nuestro menú cuidadosamente elaborado, con ingredientes frescos, locales y recetas atemporales. Ya sea para una cena romántica, una reunión familiar o un bocado rápido, prometemos una experiencia gastronómica inolvidable. ¡Reserva tu mesa hoy y saborea la perfección!",
+    "pages": "Páginas",
+    "followUs": "Síguenos en Instagram",
+    "copyright": "Derechos de autor ©",
+    "copyrightContent": "Dawood Arif. Todos los derechos reservados"
   }
 }

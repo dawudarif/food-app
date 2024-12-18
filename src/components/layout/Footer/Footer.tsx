@@ -4,6 +4,8 @@ import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
 import { Link } from "react-router-dom";
 import clsx from "clsx";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { transformNumericals } from "../../../utils/transformNumericals";
 
 const images = [
   "https://res.cloudinary.com/dowc89eyy/image/upload/v1733673363/food-app/mrbmlbr3v8p6k9tqnoqd.jpg",
@@ -14,6 +16,7 @@ const images = [
 
 export default function Footer() {
   const links = useTranslatedRoutes({ nav: false });
+  const { t } = useTranslation();
 
   return (
     <footer className={styles.footerMain}>
@@ -23,10 +26,7 @@ export default function Footer() {
             <img src={logoImage} alt="logo" />
             <h1>Bistro Bliss</h1>
           </span>
-          <p>
-            In the new era of technology we look a in the future with certainty
-            and pride to for our company and.
-          </p>
+          <p>{t("footer.description")}</p>
 
           <div className={styles.socialIcons}>
             <span>
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.pages}>
-          <h1>Pages</h1>
+          <h1>{t("footer.pages")}</h1>
           <div>
             {links.map((link, i) => (
               <Link to={link.path} key={i}>
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.images}>
-          <h1>Follow Us On Instagram</h1>
+          <h1>{t("footer.followUs")}</h1>
           <div>
             {images.map((item, i) => (
               <img key={i} src={item} alt={"image" + i + 1} />
@@ -63,8 +63,9 @@ export default function Footer() {
       </div>
       <div className={clsx(styles.rightsContent, "container")}>
         <h4>
-          Copyright © {new Date().getFullYear()} Dawood Arif. All Rights
-          Reserved
+          {t("footer.copyright")}{" "}
+          {transformNumericals(new Date().getFullYear())}{" "}
+          {t("footer.copyrightContent")}
         </h4>
       </div>
     </footer>

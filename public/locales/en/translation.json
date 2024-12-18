@@ -318,5 +318,12 @@
         "name": "number Of People"
       }
     }
+  },
+  "footer": {
+    "description": "Welcome to Bistro Bliss – where flavor meets ambiance! Indulge in our carefully crafted menu featuring fresh, locally sourced ingredients and timeless recipes. Whether you're here for a romantic dinner, a family gathering, or a quick bite, we promise an unforgettable dining experience. Reserve your table today and savor the taste of perfection!",
+    "pages": "Pages",
+    "followUs": "Follow Us On Instagram",
+    "copyright": " Copyright ©",
+    "copyrightContent": "Dawood Arif. All Rights Reserved"
   }
 }
