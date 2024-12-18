@@ -37,10 +37,6 @@ const SingleSelect = forwardRef<any, SingleSelectProps>(
         ...provided,
         padding: "0.625rem 1.5rem",
         border: "0.0625rem solid #dbdfd0",
-        color: "#737865",
-        fontSize: "1rem",
-        lineHeight: "1.5rem",
-        fontWeight: "400",
         borderRadius: "4.5rem",
         width: "100%",
       }),
@@ -48,6 +44,7 @@ const SingleSelect = forwardRef<any, SingleSelectProps>(
       placeholder: (provided) => ({
         ...provided,
         color: "#4e5656",
+        lineHeight: "1.5rem",
       }),
 
       option: (provided, { isSelected }) => ({
@@ -62,10 +59,28 @@ const SingleSelect = forwardRef<any, SingleSelectProps>(
 
       dropdownIndicator: (provided) => ({
         ...provided,
+        padding: "0",
+        margin: "auto 0",
         svg: {
           height: "1.25rem",
           width: "1.25rem",
         },
+      }),
+
+      input: (base) => ({
+        ...base,
+        padding: "0px",
+        margin: "auto 0",
+        color: "#737865",
+        fontSize: "1rem",
+        lineHeight: "1.5rem",
+        fontWeight: "400",
+      }),
+
+      singleValue: (base) => ({
+        ...base,
+        lineHeight: "1.5rem",
+        margin: "auto 0",
       }),
 
       indicatorSeparator: () => ({ display: "none" }),

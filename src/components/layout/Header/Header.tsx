@@ -14,6 +14,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
 import useTranslatedRoutes from "../../../hooks/useTranslatedRoutes";
 import { getTranslationLocales } from "../../../utils/getTranslationLocales";
+import { transformNumericals } from "../../../utils/transformNumericals";
 import styles from "./Header.module.scss";
 
 export default function Header() {
@@ -40,7 +41,7 @@ export default function Header() {
             <div className={styles.iconMain}>
               <div className={styles.icon}>
                 <Phone size={20} color="white" />
-                <p>(414) 857 - 0107</p>
+                <p>{transformNumericals("(414) 857 - 0107")}</p>
               </div>
 
               <div className={styles.icon}>
