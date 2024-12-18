@@ -303,8 +303,7 @@
         "placeholder": "Name"
       },
       "date": {
-        "name": "Date",
-        "placeholder": "dd/mm/yy"
+        "name": "Date"
       },
       "time": {
         "name": "Time"

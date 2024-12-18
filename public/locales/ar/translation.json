@@ -301,8 +301,7 @@
         "placeholder": "الاسم"
       },
       "date": {
-        "name": "التاريخ",
-        "placeholder": "يوم/شهر/سنة"
+        "name": "التاريخ"
       },
       "time": {
         "name": "الوقت"
