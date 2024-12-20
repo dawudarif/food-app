@@ -333,5 +333,9 @@
       "message": { "name": "Mensaje", "placeholder": "Escribe tu mensaje" },
       "send": "Enviar"
     }
+  },
+  "orderApps": {
+    "heading": "Puedes ordenar a través de aplicaciones",
+    "bodyText": "Explora los menús fácilmente, personaliza tu pedido y recibe tu comida en la puerta de tu casa con solo unos toques. Disfruta de una experiencia de pedido sin problemas desde tu restaurante favorito."
   }
 }

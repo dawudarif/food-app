@@ -328,5 +328,9 @@
       "message": { "name": "Message", "placeholder": "Écrivez votre message" },
       "send": "Envoyer"
     }
+  },
+  "orderApps": {
+    "heading": "Vous pouvez commander via des applications",
+    "bodyText": "Parcourez facilement les menus, personnalisez votre commande et faites livrer votre repas directement chez vous en quelques clics. Profitez d'une expérience de commande fluide depuis votre restaurant préféré."
   }
 }

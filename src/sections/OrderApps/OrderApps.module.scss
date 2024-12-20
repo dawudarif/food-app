@@ -1,0 +1,101 @@
+@import "../../styles/variables";
+
+.main {
+  width: 100%;
+  background-color: $brand-light-gray;
+  padding: 7.5rem 0;
+
+  .mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column-reverse;
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+      gap: 1.25rem;
+    }
+
+    .textContainer {
+      width: 100%;
+      text-align: center;
+
+      @media (min-width: 1024px) {
+        max-width: 21.625rem;
+        text-align: left;
+      }
+
+      h1 {
+        font-size: 2.8125rem;
+        line-height: 3.125rem;
+        color: $brand-text;
+        font-weight: 500;
+        font-family: $styled-font;
+        margin-bottom: 1.25rem;
+
+        @media (min-width: 768px) {
+          font-size: 3.4375rem;
+          line-height: 3.7813rem;
+        }
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: $brand-light-text;
+        font-weight: 400;
+      }
+    }
+    .imageGrid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      width: 100%;
+
+      @media (min-width: 640px) and (max-width: 1024px) {
+        gap: 1.5rem;
+      }
+
+      @media (min-width: 1024px) {
+        max-width: 51.75rem;
+        column-gap: 1.5rem;
+        row-gap: 2.5rem;
+      }
+
+      .imageContainer {
+        padding: 1.25rem 1.875rem;
+        background: white;
+        border-radius: 0.75rem;
+        box-shadow: 0 2.98px 59.57px rgba(0, 0, 0, 0.08);
+        flex-shrink: 0;
+
+        @media (min-width: 768px) {
+          padding: 2.0438rem 2.1563rem;
+        }
+
+        img {
+          object-fit: contain;
+          height: 1.5313rem;
+          width: 9.4375rem;
+
+          @media (min-width: 640px) {
+            height: 1.5313rem;
+            width: 7rem;
+          }
+        }
+
+        @media (min-width: 1234px) {
+          &:nth-child(2n),
+          &:nth-child(5),
+          &:nth-child(6) {
+            img {
+              width: 11.9375rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

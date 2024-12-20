@@ -346,5 +346,9 @@
       "message": { "name": "Message", "placeholder": "Write your message" },
       "send": "Send"
     }
+  },
+  "orderApps": {
+    "heading": "You can order through apps",
+    "bodyText": "Easily browse menus, customize your order, and get food delivered to your doorstep with just a few taps. Enjoy a seamless ordering experience from your favorite restaurant."
   }
 }
