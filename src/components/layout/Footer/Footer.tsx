@@ -15,7 +15,7 @@ const images = [
 ];
 
 export default function Footer() {
-  const links = useTranslatedRoutes({ nav: false });
+  const links = useTranslatedRoutes({ type: "nav" });
   const { t } = useTranslation();
 
   return (

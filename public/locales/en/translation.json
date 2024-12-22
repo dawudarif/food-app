@@ -353,7 +353,7 @@
     },
     "inputs": {
       "name": { "name": "Name", "placeholder": "Enter your Name" },
-      "email": { "name": "email", "placeholder": "Enter email address" },
+      "email": { "name": "Email", "placeholder": "Enter email address" },
       "subject": { "name": "Subject", "placeholder": "Write a subject" },
       "message": { "name": "Message", "placeholder": "Write your message" },
       "send": "Send"
