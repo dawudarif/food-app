@@ -141,7 +141,7 @@ export default function Header() {
 }
 
 const NavLinks = ({ pathname }: { pathname: string }) => {
-  const routes = useTranslatedRoutes({ nav: true });
+  const routes = useTranslatedRoutes({ type: "nav" });
 
   return (
     <>

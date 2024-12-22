@@ -15,6 +15,18 @@
     "9": "9",
     ".": "."
   },
+  "seo": {
+    "homeTitle": "Home",
+    "homeDescription": "Enjoy delicious meals with fast delivery and great service.",
+    "menuTitle": "Menu",
+    "menuDescription": "Explore our variety of dishes, crafted to satisfy every craving.",
+    "contactTitle": "Contact Us",
+    "contactDescription": "We're here to assist with your inquiries or feedback.",
+    "aboutTitle": "About Us",
+    "aboutDescription": "Learn about our passion for delivering great food experiences.",
+    "bookTableTitle": "Book A Table",
+    "bookTableDescription": "Reserve a table for a delightful dining experience."
+  },
   "routes": {
     "home": "Home",
     "about": "About Us",
@@ -341,7 +353,7 @@
     },
     "inputs": {
       "name": { "name": "Name", "placeholder": "Enter your Name" },
-      "email": { "name": "email", "placeholder": "Enter email address" },
+      "email": { "name": "Email", "placeholder": "Enter email address" },
       "subject": { "name": "Subject", "placeholder": "Write a subject" },
       "message": { "name": "Message", "placeholder": "Write your message" },
       "send": "Send"

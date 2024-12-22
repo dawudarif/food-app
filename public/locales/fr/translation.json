@@ -2,6 +2,18 @@
   "global": {
     "select": "Sélectionner"
   },
+  "seo": {
+    "homeTitle": "Accueil",
+    "homeDescription": "Profitez de repas délicieux avec une livraison rapide et un excellent service.",
+    "menuTitle": "Menu",
+    "menuDescription": "Découvrez notre variété de plats, conçus pour satisfaire tous les goûts.",
+    "contactTitle": "Contactez-Nous",
+    "contactDescription": "Nous sommes là pour vous aider avec vos questions ou vos commentaires.",
+    "aboutTitle": "À Propos de Nous",
+    "aboutDescription": "Découvrez notre passion pour offrir des expériences culinaires exceptionnelles.",
+    "bookTableTitle": "Réserver une Table",
+    "bookTableDescription": "Réservez votre table et profitez d'une expérience culinaire agréable."
+  },
   "routes": {
     "home": "Accueil",
     "about": "À Propos",
