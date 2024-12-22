@@ -11,8 +11,6 @@ export default function BookTable() {
   const [selectedValue, setSelectedValue] = React.useState<any>();
   const { t, i18n } = useTranslation();
 
-  console.log(t);
-
   const numberOfPeople = React.useMemo(
     () =>
       [2, 4, 8, 10, 12].map((item) => ({

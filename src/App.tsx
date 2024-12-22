@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Navigate, Route } from "react-router";
+import { Route } from "react-router";
 import { Routes } from "react-router-dom";
 import Footer from "./components/layout/Footer/Footer";
 import Header from "./components/layout/Header/Header";
