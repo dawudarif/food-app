@@ -1,3 +1,4 @@
+import SEO from "../../components/SEO/SEO";
 import HomeHero from "../../sections/HomeHero/HomeHero";
 import ImageGalleryWithText from "../../sections/ImageGalleryWithText/ImageGalleryWithText";
 import ImageWithTextAndDescription from "../../sections/ImageWithTextAndDescription/ImageWithTextAndDescription";
@@ -8,6 +9,7 @@ import Testimonials from "../../sections/Testimonials/Testimonials";
 export default function Home() {
   return (
     <>
+      <SEO titleKey="seo.homeTitle" descriptionKey="seo.homeDescription" />
       <HomeHero />
       <MenuLinks />
       <ImageWithTextAndDescription
