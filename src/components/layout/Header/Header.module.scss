@@ -9,6 +9,7 @@
   .thinHeader {
     background-color: $brand-dark-gray;
     padding: 0.5625rem 0;
+    overflow: hidden;
 
     .thinHeaderContainer {
       display: flex;
@@ -120,7 +121,7 @@
       display: flex;
 
       a {
-        padding: 0.25rem 1rem;
+        padding: 0.25rem 0.625rem;
         display: inline-block;
         color: $brand-text;
         border-radius: 2.125rem;
@@ -130,6 +131,7 @@
         line-height: 1.5rem;
         font-weight: 500;
         display: none;
+        text-wrap: nowrap;
 
         &:hover {
           background: #dbdfd0;
@@ -138,23 +140,46 @@
         @media (min-width: 768px) {
           display: block;
         }
+
+        @media (min-width: 1024px) {
+          padding: 0.25rem 1rem;
+        }
       }
     }
 
     .navBtn {
-      border: 0.125rem solid $brand-dark-gray;
-      font-size: 1.125rem;
-      line-height: 1.5rem;
-      font-weight: bold;
-      border-radius: 7.375rem;
-      padding: 0.75rem 1.5rem;
-      background: transparent;
-      display: none;
-      color: $brand-dark-gray;
-      text-wrap: nowrap;
+      @media (max-width: 1024px) {
+        all: unset;
+        padding: 0.25rem 0.625rem;
+        display: inline-block;
+        color: $brand-text;
+        border-radius: 2.125rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        text-wrap: nowrap;
+
+        &:hover {
+          background: #dbdfd0;
+        }
+      }
+
+      @media (max-width: 768px) {
+        display: none;
+      }
 
       @media (min-width: 1024px) {
-        display: block;
+        border: 0.125rem solid $brand-dark-gray;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+        border-radius: 7.375rem;
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        color: $brand-dark-gray;
+        text-wrap: nowrap;
       }
     }
 
