@@ -9,7 +9,6 @@
   .thinHeader {
     background-color: $brand-dark-gray;
     padding: 0.5625rem 0;
-    overflow: hidden;
 
     .thinHeaderContainer {
       display: flex;
@@ -288,6 +287,11 @@
     .activeLng {
       background-color: $brand-red;
       color: white;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      left: 0;
+      transform: translateX(-60%);
     }
 
     div {
